@@ -1,7 +1,10 @@
 import resume from "data/resume";
 
 const Title = ({ children }: { children: string }) => (
-  <h3 className="font-bold text-2xl mb-2 print:text-xl">{children}</h3>
+  <h3 className="font-semibold text-2xl mb-2 print:text-xl relative pl-2 -left-2">
+    <span className="absolute h-full border-l-2 border-teal-300 left-0 top-0"></span>
+    {children}
+  </h3>
 );
 
 export default function App() {
@@ -9,7 +12,13 @@ export default function App() {
     <div className="w-full p-10 flex justify-center print:p-0">
       <div className="shadow-2xl shadow-cyan-500/50 print:shadow-none">
         {/* Header */}
-        <div className="bg-teal-300 dark:bg-emerald-900 p-5 mb-3 print:m-0 print:mb-0 print:p-5 max-w-screen-lg print-bg">
+        <div
+          className={` print-bg
+            bg-teal-300 dark:bg-emerald-900 
+              p-10 mb-3 max-w-screen-lg 
+              print:m-0 print:mb-0 print:p-5 
+          `}
+        >
           <h1 className="font-bold text-6xl print:text-5xl">
             {resume.head.name}
           </h1>
@@ -24,7 +33,7 @@ export default function App() {
         {/* Body */}
         <div
           className={`
-              flex max-w-screen-lg m-auto p-5
+              flex max-w-screen-lg m-auto p-10
               flex-col md:flex-row gap-4 md:gap-16
               print:m-0 print:p-5
               `}
@@ -57,14 +66,14 @@ export default function App() {
             <div className="mb-8">
               <Title>{resume.experiences.title}</Title>
 
-              <ul>
+              <ul className="mt-4">
                 {resume.experiences.items.map((experience, i) => (
                   <li key={i} className="mb-6">
-                    <div className="font-bold text-xl flex gap-4 mb-2">
-                      <div className="font-bold text-xl print:text-lg">
+                    <div className="font-semibold flex gap-4 mb-2">
+                      <div className="text-xl print:text-lg">
                         {experience.company}
                       </div>
-                      <div className="font-semibold text-base leading-7">
+                      <div className="text-base leading-7">
                         {experience.date}
                       </div>
                     </div>
@@ -82,14 +91,14 @@ export default function App() {
             <div className="mb-8">
               <Title>{resume.education.title}</Title>
 
-              <ul>
+              <ul className="mt-4">
                 {resume.education.items.map((education, i) => (
                   <li key={i} className="mb-6">
-                    <div className="font-bold text-xl flex gap-4">
-                      <div className="font-bold text-xl print:text-lg">
+                    <div className="font-semibold text-xl flex gap-4">
+                      <div className="text-xl print:text-lg">
                         {education.institute}
                       </div>
-                      <div className="font-semibold text-base leading-7">
+                      <div className="text-base leading-7">
                         {education.date}
                       </div>
                     </div>
@@ -109,7 +118,7 @@ export default function App() {
             <div className="mb-8">
               <Title>{resume.projects.title}</Title>
 
-              <ul>
+              <ul className="mt-4">
                 {resume.projects.items.map((project, i) => (
                   <li key={i} className="mb-6">
                     <div className="font-bold text-xl">{project.title}</div>
@@ -130,7 +139,7 @@ export default function App() {
             <div className="mb-8">
               <Title>{resume.skills.title}</Title>
 
-              <ul className="flex flex-col gap-2">
+              <ul className="flex flex-col gap-2 mt-4">
                 {resume.skills.items.map((skill, i) => (
                   <li key={i} className="flex">
                     <div className="w-1/3">{skill.name}</div>
@@ -144,7 +153,7 @@ export default function App() {
             <div className="mb-8">
               <Title>{resume.social.title}</Title>
 
-              <ul className="flex flex-col gap-2">
+              <ul className="flex flex-col gap-2 mt-4">
                 {resume.social.items.map((item, i) => (
                   <li key={i}>
                     <a

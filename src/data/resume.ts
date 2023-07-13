@@ -156,7 +156,7 @@ Kaban and Scrum as agile working methods are used in the projects above.`,
     title: "Education",
     items: [
       {
-        institute: "Escuela Colombiana de Carreras Industriales",
+        institute: "Colombian Industrial Careers School",
         title: "Engineering, System Engineering",
         description:
           "3 semesters of studies to reach the engineering degree. The content of the studies were programming algorithms, functions, algebra, physics, fundamentals of engineering.",
