@@ -7,7 +7,7 @@ const Title = ({ children }: { children: string }) => (
 export default function App() {
   return (
     <div className="w-full p-10 flex justify-center print:p-0">
-      <div className="shadow-2xl shadow-cyan-500/50 print:shadow">
+      <div className="shadow-2xl shadow-cyan-500/50 print:shadow-none">
         {/* Header */}
         <div className="bg-teal-300 dark:bg-emerald-900 p-5 mb-3 print:m-0 print:mb-0 print:p-5 max-w-screen-lg print-bg">
           <h1 className="font-bold text-6xl print:text-5xl">
