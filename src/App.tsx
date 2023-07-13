@@ -73,7 +73,7 @@ export default function App() {
                       <div className="text-xl print:text-lg">
                         {experience.company}
                       </div>
-                      <div className="text-base leading-7">
+                      <div className="text-base leading-7 print:text-xs print:leading-8">
                         {experience.date}
                       </div>
                     </div>
@@ -98,7 +98,7 @@ export default function App() {
                       <div className="text-xl print:text-lg">
                         {education.institute}
                       </div>
-                      <div className="text-base leading-7">
+                      <div className="text-base leading-7 print:text-xs print:leading-8">
                         {education.date}
                       </div>
                     </div>
@@ -121,7 +121,9 @@ export default function App() {
               <ul className="mt-4">
                 {resume.projects.items.map((project, i) => (
                   <li key={i} className="mb-6">
-                    <div className="font-bold text-xl">{project.title}</div>
+                    <div className="font-semibold text-xl print:text-lg">
+                      {project.title}
+                    </div>
                     <a
                       href={project.url}
                       rel="noopener noreferrer"
