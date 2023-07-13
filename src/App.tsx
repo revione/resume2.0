@@ -22,9 +22,15 @@ export default function App() {
         </div>
 
         {/* Body */}
-        <div className="m-auto p-5 flex gap-16 print:m-0 print:mb-0 print:p-5 max-w-screen-lg">
+        <div
+          className={`
+              flex max-w-screen-lg m-auto p-5
+              flex-col md:flex-row gap-4 md:gap-16
+              print:m-0 print:p-5
+              `}
+        >
           {/* Left */}
-          <div className="w-3/5">
+          <div className="w-full md:w-3/5">
             {/* Summary */}
             <div className="mb-8">
               <Title>{resume.summary.title}</Title>
@@ -98,7 +104,7 @@ export default function App() {
           </div>
 
           {/* Right */}
-          <div className="w-2/5">
+          <div className="w-full md:w-2/5">
             {/* Projects */}
             <div className="mb-8">
               <Title>{resume.projects.title}</Title>
