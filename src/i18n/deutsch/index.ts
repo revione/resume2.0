@@ -43,13 +43,13 @@ export default {
   summary: {
     title: "Zusammenfassung",
     description: [
-      "Ich biete seit über 7 Jahren meine Dienste als Frontend-Entwickler an und habe umfangreiche Erfahrungen in der Entwicklung komplexer und skalierbarer Projekte gesammelt.",
-      "Mit der Fähigkeit, unterschiedliche Aufgaben anzugehen und außergewöhnliche Ergebnisse zu liefern, widme ich mich der Bereitstellung hochwertiger Software-Lösungen.",
+      "Ich habe ein gutes Auffassungsvermögen und entwickle schnell ein Verständnis für ein geschäftliches Problem, setze es in eine Architektur um, transformiere diese in eine Lösung, die ich teste.",
+      " Im Anschluss daran stelle ich die Lösung bereit und präsentiere sie.",
     ],
   },
   responsibilities: {
-    title: "Verantwortlichkeiten",
-    pre: "Verantwortlichkeiten, an denen ich beteiligt bin:",
+    title: "Soft Skills",
+    pre: "Soft Skills, an denen ich beteiligt bin:",
     items: [
       "Verständnis für das geschäftliche Problem",
       "Umsetzung des Problems in eine Architektur",
@@ -79,7 +79,7 @@ export default {
         title: "Senior Frontend",
         date: "Oktober 2022 - März 2023",
         company: "Opentalk",
-        description: `Mein Hauptaugenmerk lag auf der Entwicklung von benutzerorientierten Webanwendungen und wiederverwendbaren Komponenten. Ich habe diese Komponenten unter Verwendung bewährter Methoden und Workflows mit dem React-Framework implementiert. Ich habe darauf geachtet, robusten, sicheren, modularen und wartbaren Code zu produzieren. Ich habe mit interdisziplinären Teams zusammengearbeitet, darunter Backend-Entwickler und Produktgestalter. Mein Engagement für Teamarbeit, klare Kommunikation und ein qualitativ hochwertiges Produkt waren für diese Rolle entscheidend.`,
+        description: `Mein Hauptaugenmerk lag auf der Entwicklung von benutzerorientierten Webanwendungen und wiederverwendbaren Komponenten. Ich habe diese Komponenten unter Verwendung bewährter Methoden und Workflows mit dem React-Framework implementiert. Dabei habe ich darauf geachtet, einen robusten, sicheren, modularen und wartbaren Code zu produzieren. Ebenso habe ich mit interdisziplinären Teams zusammengearbeitet, darunter Backend-Entwicklern und Produktgestaltern. Mein Engagement für Teamarbeit, klare Kommunikation und ein qualitativ hochwertiges Produkt waren für diese Rolle entscheidend.`,
         technologies: [
           "Node.js",
           "React",
@@ -94,10 +94,7 @@ export default {
         title: "Senior Frontend / Lead",
         date: "Februar 2021 - März 2022",
         company: "Dev Base",
-        description: `
-          Eng arbeitete eng mit Designern und Entwicklern zusammen, um zur Entwicklung des Designs beizutragen und umfangreiche Frontend-Entwicklungsverantwortung zu übernehmen.
-          Nahm aktiv an Meetings teil, um Aufgaben zuzuweisen, die Ausrichtung auf Projektziele sicherzustellen und mit QA bei Testbemühungen zusammenzuarbeiten.
-          Zeigte Innovation durch die Einführung neuer Technologie-Stacks wie Next.js und unterstützte das DevOps-Team eng bei CI/CD-Prozessen.`,
+        description: `Ich arbeitete eng mit Designern und Entwicklern zusammen, um zur Entwicklung des Designs beizutragen und übernahm umfangreiche Verantwortung im Bereich der Frontend-Entwicklung. Des Weiteren nahm ich aktiv an Meetings teil, um Aufgaben zuzuweisen, die Ausrichtung auf Projektziele sicherzustellen und mit QA bei Testbemühungen zusammenzuarbeiten. Durch die Einführung neuer Technologie-Stacks wie Next.js zeigte ich Innovation und unterstützte das DevOps-Team eng bei CI/CD-Prozessen.`,
 
         technologies: [
           "Node.js",
@@ -121,8 +118,7 @@ export default {
         title: "Front-End / UI/UX Designer",
         date: "September 2020 - Februar 2021",
         company: "Making Sense",
-        description: `Meine Aufgabe bestand darin, eine Verbindung zwischen Designern und Entwicklern herzustellen.
-  Eines meiner Aufgaben bestand darin, mein Wissen über die Software, das Design und die Benutzererfahrung zu vermitteln. Hierzu habe ich an Diskussionen teilgenommen, um den einfachsten und besten Ansatz für den Umgang mit dem Technologie-Stack und das beste Architekturmodell zu vereinbaren.`,
+        description: `Meine Aufgabe bestand darin, eine Verbindung zwischen Designern und Entwicklern herzustellen. Eine meiner Aufgaben bestand darin, mein Wissen über die Software, das Design und die Benutzererfahrung zu vermitteln. Hierzu habe ich an Diskussionen teilgenommen, um den einfachsten und besten Ansatz für den Umgang mit dem Technologie-Stack und das beste Architekturmodell zu vereinbaren.`,
         technologies: [
           "Node.js",
           "React",
@@ -145,9 +141,7 @@ export default {
         title: "Frontend-Engineer",
         date: "März 2019 - September 2020",
         company: "Wenance",
-        description: `Lösungsdenker und -anbieter. Mit meinen technischen Fähigkeiten werden komplexe Projekte in der Finanzbranche zum Leben erweckt. In internen Projekten werden Kundendaten verarbeitet. Um die Anforderungen dieser Projekte zu erfüllen, werden Anwendungen und mehrere Sprachen verwendet, wie zum Beispiel:
-  
-  React, Redux, Node, JS, Styles CSS // Sass mit styled components, API REST.`,
+        description: `Ich habe als Lösungsdenker und -anbieter bei Wenance gearbeitet. Mit meinen technischen Fähigkeiten wurden komplexe Projekte in der Finanzbranche zum Leben erweckt. In internen Projekten habe ich Kundendaten verarbeitet. Um die Anforderungen dieser Projekte zu erfüllen, wurden Anwendungen und mehrere Sprachen verwendet, wie zum Beispiel: React, Redux, Node, JS, Styles CSS // Sass mit styled components, API REST.`,
         technologies: [
           "Node.js",
           "Nestjs",
@@ -172,8 +166,7 @@ export default {
         title: "Frontend-Entwickler",
         date: "Februar 2016 - Februar 2019",
         company: "Eulas S.A.",
-        description: `Aufrechterhaltung des Designs und der Funktionalität von E-Commerce-Websites. Das Unternehmen befand sich in den Vereinigten Staaten von Amerika. Die Projekte wurden mit folgenden Unternehmen realisiert: Ascena Group, Stadium Goods, Children Place.
-          Projekte, an denen ich bei Eulas gearbeitet habe:
+        description: `Aufrechterhaltung des Designs und der Funktionalität von E-Commerce-Websites. Das Unternehmen befindet sich in den USA. Die Projekte wurden mit folgenden Unternehmen realisiert: Ascena Group, Stadium Goods, Children Place. Projekte, an denen ich bei Eulas gearbeitet habe:
           - https://www.louandgrey.com/
           - https://www.anntaylor.com/ `,
         technologies: [
