@@ -16,8 +16,8 @@ const Header = () => {
     <div
       className={`print-bg bg-teal-300 dark:bg-emerald-900 p-10 mb-3 max-w-screen-lg print:m-0 print:mb-0 print:p-5`}
     >
-      <h1 className="font-bold text-5xl print:text-5xl">{t("head.name")}</h1>
-      <h2 className="font-bold text-5xl print:text-5xl">{t("head.carrier")}</h2>
+      <h1 className="font-bold text-5xl print:text-3xl">{t("head.name")}</h1>
+      <h2 className="font-bold text-5xl print:text-3xl">{t("head.carrier")}</h2>
       <div className="font-semibold text-xl print:text-xl">
         {t("head.email")}
       </div>
@@ -99,7 +99,7 @@ const Experiences = () => {
           }[]
         ).map((experience, i) => (
           <li key={i} className="mb-6">
-            <div className="font-semibold flex gap-4 ">
+            <div className="font-semibold flex gap-4">
               <div className="text-xl print:text-lg">
                 {t(experience.company)}
               </div>
@@ -258,7 +258,7 @@ const Social = () => {
 
 const App = () => {
   return (
-    <div className="w-full md:p-10 flex justify-center print:p-0">
+    <div className="w-full  flex justify-center  md:p-10 print:p-0 print:md:p-0">
       <div className="shadow-2xl shadow-cyan-500/50 print:shadow-none">
         <Header />
 
