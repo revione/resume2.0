@@ -80,7 +80,6 @@ export default {
         date: "October 2022 - March 2023",
         company: "Opentalk",
         description: `My primary focus was developing user-facing web applications and reusable components. I implemented these components with the React framework using best practices and workflows. I ensured that I produced robust, secure, modular, and maintainable code. I worked with cross-functional teams, including backend engineers and product designers. My commitment to team collaboration, clear communication, and a quality product was crucial for that role.`,
-
         technologies: [
           "Node.js",
           "React",

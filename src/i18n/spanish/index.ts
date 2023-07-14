@@ -218,18 +218,18 @@ export default {
     title: "Educación",
     items: [
       {
-        institute: "Escuela de Carreras Industriales de Colombia",
-        title: "Ingeniería, Ingeniería de Sistemas",
-        description:
-          "4 semestres de estudios para obtener el título de ingeniería. El contenido de los estudios incluía algoritmos de programación, funciones, álgebra, física y fundamentos de ingeniería.",
-        date: "2012 - 2014",
-      },
-      {
         institute: "Coder House",
         title: "Desarrollo web, Desarrollador Frontend",
         description:
           "Creación y diseño de páginas web con HTML5, JS, CSS, Bootstrap, jQuery, APIs, animaciones. Como autodidacta, mejoré mis habilidades profesionales.",
         date: "2015 - 2016",
+      },
+      {
+        institute: "Escuela de Carreras Industriales de Colombia",
+        title: "Ingeniería, Ingeniería de Sistemas",
+        description:
+          "4 semestres de estudios para obtener el título de ingeniería. El contenido de los estudios incluía algoritmos de programación, funciones, álgebra, física y fundamentos de ingeniería.",
+        date: "2012 - 2014",
       },
     ],
   },
