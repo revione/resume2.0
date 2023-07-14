@@ -79,10 +79,7 @@ export default {
         title: "Senior Frontend",
         date: "Octubre 2022 - Marzo 2023",
         company: "Opentalk",
-        description: `
-          Colaboré estrechamente con diseñadores y desarrolladores para contribuir al desarrollo del diseño y asumir importantes responsabilidades en el desarrollo frontend.
-          Participé activamente en reuniones para asignar tareas, asegurando la alineación con los objetivos del proyecto y colaborando con QA en los esfuerzos de prueba.
-          Demostré innovación adoptando nuevas pilas tecnológicas, incluyendo Next.js, y brindé un apoyo cercano al equipo de DevOps en los procesos de CI/CD.`,
+        description: `Mi enfoque principal fue desarrollar aplicaciones web orientadas al usuario y componentes reutilizables. Implementé estos componentes con el marco de trabajo React utilizando las mejores prácticas y flujos de trabajo. Me aseguré de producir un código sólido, seguro, modular y fácil de mantener. Trabajé con equipos interfuncionales, incluyendo ingenieros de backend y diseñadores de productos. Mi compromiso con la colaboración en equipo, la comunicación clara y un producto de calidad fue crucial para este rol.`,
 
         technologies: [
           "Node.js",
