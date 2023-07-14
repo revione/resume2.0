@@ -92,3 +92,9 @@ button:focus-visible {
     print-color-adjust: exact;
   }
 }
+
+.languages {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}

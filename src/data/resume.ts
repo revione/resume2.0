@@ -11,8 +11,8 @@ export default {
       "With a strong ability to tackle diverse tasks and deliver exceptional results, I am dedicated to delivering high-quality frontend solutions.",
     ],
   },
-  responsabilities: {
-    title: "Responsabilities",
+  responsibilities: {
+    title: "responsibilities",
     pre: "Responsaiblities that I take part:",
     items: [
       "understanding of the business problem",
@@ -48,7 +48,7 @@ export default {
         Actively participated in meetings to allocate tasks, ensuring alignment with project goals and collaborating with QA in testing efforts.
         Demonstrated innovation by adopting new technology stacks, including Next.js, and closely supported the DevOps team in CI/CD processes.`,
 
-        tecnologies: [
+        technologies: [
           "Node.js",
           "React",
           "Redux",
@@ -67,7 +67,7 @@ export default {
         Actively participated in meetings to allocate tasks, ensuring alignment with project goals and collaborating with QA in testing efforts.
         Demonstrated innovation by adopting new technology stacks, including Next.js, and closely supported the DevOps team in CI/CD processes.`,
 
-        tecnologies: [
+        technologies: [
           "Node.js",
           "Nestjs",
           "Nextjs",
@@ -91,7 +91,7 @@ export default {
         company: "Making Sense",
         description: `My responsibility was being a connection between Designers and Developers. 
 One of my tasks was to communicate my knowledge about the software, design and user experience. For this, I participated in disscusions to agree upon the easiest and best approach to handle the Technology stack and best architect model.`,
-        tecnologies: [
+        technologies: [
           "Node.js",
           "React",
           "React Native",
@@ -116,7 +116,7 @@ One of my tasks was to communicate my knowledge about the software, design and u
         description: `Solution thinker and provider. With my engineering capabilities complex projects in the Financial industry will be brought to life. In internal projects client identifying data will be processed. To fulfill the requirents of these projects, applications and multiple languages are used like:
 
 React, Redux, Node, JS, Styles CSS // Sass with styled components, API REST.`,
-        tecnologies: [
+        technologies: [
           "Node.js",
           "Nestjs",
           "Next.js",
@@ -190,7 +190,7 @@ Kaban and Scrum as agile working methods are used in the projects above.`,
         title: "Tic-Tac-Toe AI",
         url: "https://tic-tac-toe.rev.earth/",
         description:
-          "You! Beat it! \n Unbeatable Tic-Tac-Toe game using AI will try to beat you! Tecnologies: React and Minimax Algorithm and Alpha Beta.",
+          "You! Beat it! \n Unbeatable Tic-Tac-Toe game using AI will try to beat you! technologies: React and Minimax Algorithm and Alpha Beta.",
       },
       {
         title: "CRM Seller",

@@ -1,4 +1,7 @@
+import Languages from "common/Languages";
 import resume from "data/resume";
+
+import { useTranslation } from "react-i18next";
 
 const Title = ({ children }: { children: string }) => (
   <h3 className="font-semibold text-2xl mb-2 print:text-xl relative pl-2 -left-2">
@@ -7,28 +10,254 @@ const Title = ({ children }: { children: string }) => (
   </h3>
 );
 
-export default function App() {
+const Header = () => {
+  const { t } = useTranslation();
+
+  return (
+    <div
+      className={`print-bg bg-teal-300 dark:bg-emerald-900 p-10 mb-3 max-w-screen-lg print:m-0 print:mb-0 print:p-5`}
+    >
+      <h1 className="font-bold text-5xl print:text-5xl">{t("head.name")}</h1>
+      <h2 className="font-bold text-5xl print:text-5xl">{t("head.carrier")}</h2>
+      <div className="font-semibold text-xl print:text-xl">
+        {t("head.email")}
+      </div>
+      <div className="absolute top-4 right-4 print:hidden">
+        <Languages />
+      </div>
+    </div>
+  );
+};
+
+const Summary = () => {
+  const { t } = useTranslation();
+
+  const description = t("summary.description", {
+    returnObjects: true,
+  });
+
+  return (
+    <div className="mb-8">
+      <Title>{t("summary.title")}</Title>
+      <p className="flex flex-col">
+        {(description as string[]).map((d, i) => (
+          <span key={i}>{d}</span>
+        ))}
+      </p>
+    </div>
+  );
+};
+
+const Responsibilities = () => {
+  const { t } = useTranslation();
+
+  const responsibilitiesItems = t("responsibilities.items", {
+    returnObjects: true,
+  });
+
+  return (
+    <div className="mb-8">
+      <Title>{t("responsibilities.title")}</Title>
+      <p>{(responsibilitiesItems as string[]).join(", ")}</p>
+    </div>
+  );
+};
+
+const TechnologyExpertise = () => {
+  const { t } = useTranslation();
+
+  const technologyExpertiseItems = t("technologyExpertise.items", {
+    returnObjects: true,
+  });
+
+  return (
+    <div className="mb-8">
+      <Title>{t("technologyExpertise.title")}</Title>
+      <p>{(technologyExpertiseItems as string[]).join(", ")}</p>
+    </div>
+  );
+};
+
+const Experiences = () => {
+  const { t } = useTranslation();
+
+  const experiencesItems = t("experiences.items", {
+    returnObjects: true,
+  });
+
+  return (
+    <div className="mb-8">
+      <Title>{t("experiences.title")}</Title>
+
+      <ul className="mt-4">
+        {(
+          experiencesItems as {
+            company: string;
+            date: string;
+            description: string;
+            technologies: string[];
+          }[]
+        ).map((experience, i) => (
+          <li key={i} className="mb-6">
+            <div className="font-semibold flex gap-4 mb-2">
+              <div className="text-xl print:text-lg">
+                {t(experience.company)}
+              </div>
+              <div className="text-base leading-7 print:text-xs print:leading-8">
+                {t(experience.date)}
+              </div>
+            </div>
+            <p className="mb-2">{t(experience.description)}</p>
+            <p>
+              <span className="font-bold">{t("Stack technologies")}: </span>
+              {experience.technologies?.join(", ")}
+            </p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+const Education = () => {
+  const { t } = useTranslation();
+
+  const educationItems = t("education.items", {
+    returnObjects: true,
+  });
+
+  return (
+    <div className="mb-8">
+      <Title>{t("education.title")}</Title>
+
+      <ul className="mt-4">
+        {(
+          educationItems as {
+            institute: string;
+            date: string;
+            title: string;
+            description: string;
+          }[]
+        ).map((education, i) => (
+          <li key={i} className="mb-6">
+            <div className="font-semibold text-xl flex gap-4">
+              <div className="text-xl print:text-lg">
+                {t(education.institute)}
+              </div>
+              <div className="text-base leading-7 print:text-xs print:leading-8">
+                {t(education.date)}
+              </div>
+            </div>
+            <div className="font-bold text-lg flex gap-4 print:text-base">
+              {t(education.title)}
+            </div>
+            <p>{t(education.description)}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+const Projects = () => {
+  const { t } = useTranslation();
+
+  const projectsItems = t("projects.items", {
+    returnObjects: true,
+  });
+
+  return (
+    <div className="mb-8">
+      <Title>{t("projects.title")}</Title>
+
+      <ul className="mt-4">
+        {(
+          projectsItems as { title: string; url: string; description: string }[]
+        ).map((project, i) => (
+          <li key={i} className="mb-6">
+            <div className="font-semibold text-xl print:text-lg">
+              {t(project.title)}
+            </div>
+            <a href={project.url} rel="noopener noreferrer" target="_blank">
+              {t(project.url)}
+            </a>
+            <p className="mt-1">{t(project.description)}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+const Skills = () => {
+  const { t } = useTranslation();
+
+  const skillsItems = t("skills.items", {
+    returnObjects: true,
+  });
+
+  return (
+    <div className="mb-8">
+      <Title>{t("skills.title")}</Title>
+
+      <ul className="flex flex-col gap-2 mt-4">
+        {(skillsItems as { name: string; time: string }[]).map((skill, i) => (
+          <li key={i} className="flex">
+            <div className="w-1/3">{t(skill.name)}</div>
+            <div className="w-1/3">{t(skill.time)}</div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+const Social = () => {
+  const { t } = useTranslation();
+
+  const socialItems = t("social.items", {
+    returnObjects: true,
+  });
+
+  return (
+    <div className="mb-8">
+      <Title>{t("social.title")}</Title>
+
+      <ul className="flex flex-col gap-2 mt-4">
+        {(
+          socialItems as {
+            link: string;
+            srcImg: string;
+            title: string;
+            description: string;
+          }[]
+        ).map((item, i) => (
+          <li key={i}>
+            <a
+              href={item.link}
+              rel="noopener noreferrer"
+              target="_blank"
+              className="flex items-center gap-2"
+            >
+              <img
+                className="w-10 print:w-8"
+                src={item.srcImg}
+                alt={item.title}
+              />
+              <div>{t(item.description)}</div>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+const App = () => {
   return (
     <div className="w-full md:p-10 flex justify-center print:p-0">
       <div className="shadow-2xl shadow-cyan-500/50 print:shadow-none">
-        {/* Header */}
-        <div
-          className={` print-bg
-            bg-teal-300 dark:bg-emerald-900 
-              p-10 mb-3 max-w-screen-lg 
-              print:m-0 print:mb-0 print:p-5 
-          `}
-        >
-          <h1 className="font-bold text-6xl print:text-5xl">
-            {resume.head.name}
-          </h1>
-          <h2 className="font-bold text-6xl print:text-5xl">
-            {resume.head.carrier}
-          </h2>
-          <div className="font-semibold text-2xl print:text-xl">
-            {resume.head.email}
-          </div>
-        </div>
+        <Header />
 
         {/* Body */}
         <div
@@ -40,144 +269,22 @@ export default function App() {
         >
           {/* Left */}
           <div className="w-full md:w-3/5">
-            {/* Summary */}
-            <div className="mb-8">
-              <Title>{resume.summary.title}</Title>
-              <p className="flex flex-col">
-                {resume.summary.description.map((d, i) => (
-                  <span key={i}>{d}</span>
-                ))}
-              </p>
-            </div>
-
-            {/* Responsabilites  */}
-            <div className="mb-8">
-              <Title>{resume.responsabilities.title}</Title>
-              <p>{resume.responsabilities.items.join(", ")}</p>
-            </div>
-
-            {/* technologyExpertise  */}
-            <div className="mb-8">
-              <Title>{resume.technologyExpertise.title}</Title>
-              <p>{resume.technologyExpertise.items.join(", ")}</p>
-            </div>
-
-            {/* Experiences */}
-            <div className="mb-8">
-              <Title>{resume.experiences.title}</Title>
-
-              <ul className="mt-4">
-                {resume.experiences.items.map((experience, i) => (
-                  <li key={i} className="mb-6">
-                    <div className="font-semibold flex gap-4 mb-2">
-                      <div className="text-xl print:text-lg">
-                        {experience.company}
-                      </div>
-                      <div className="text-base leading-7 print:text-xs print:leading-8">
-                        {experience.date}
-                      </div>
-                    </div>
-                    <p className="mb-2">{experience.description}</p>
-                    <p>
-                      <span className="font-bold">Stack Tecnologies:</span>{" "}
-                      {experience.tecnologies?.join(", ")}
-                    </p>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Education */}
-            <div className="mb-8">
-              <Title>{resume.education.title}</Title>
-
-              <ul className="mt-4">
-                {resume.education.items.map((education, i) => (
-                  <li key={i} className="mb-6">
-                    <div className="font-semibold text-xl flex gap-4">
-                      <div className="text-xl print:text-lg">
-                        {education.institute}
-                      </div>
-                      <div className="text-base leading-7 print:text-xs print:leading-8">
-                        {education.date}
-                      </div>
-                    </div>
-                    <div className="font-bold text-lg flex gap-4 print:text-base">
-                      {education.title}
-                    </div>
-                    <p>{education.description}</p>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            <Summary />
+            <Responsibilities />
+            <TechnologyExpertise />
+            <Experiences />
+            <Education />
           </div>
-
           {/* Right */}
           <div className="w-full md:w-2/5">
-            {/* Projects */}
-            <div className="mb-8">
-              <Title>{resume.projects.title}</Title>
-
-              <ul className="mt-4">
-                {resume.projects.items.map((project, i) => (
-                  <li key={i} className="mb-6">
-                    <div className="font-semibold text-xl print:text-lg">
-                      {project.title}
-                    </div>
-                    <a
-                      href={project.url}
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      {project.url}
-                    </a>
-                    <p className="mt-1">{project.description}</p>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Skills */}
-            <div className="mb-8">
-              <Title>{resume.skills.title}</Title>
-
-              <ul className="flex flex-col gap-2 mt-4">
-                {resume.skills.items.map((skill, i) => (
-                  <li key={i} className="flex">
-                    <div className="w-1/3">{skill.name}</div>
-                    <div className="w-1/3">{skill.time}</div>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Social */}
-            <div className="mb-8">
-              <Title>{resume.social.title}</Title>
-
-              <ul className="flex flex-col gap-2 mt-4">
-                {resume.social.items.map((item, i) => (
-                  <li key={i}>
-                    <a
-                      href={item.link}
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      className="flex items-center gap-2"
-                    >
-                      <img
-                        className="w-10 print:w-8"
-                        src={item.srcImg}
-                        alt={item.title}
-                      />
-                      <div>{item.description}</div>
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            <Projects />
+            <Skills />
+            <Social />
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
+
+export default App;
