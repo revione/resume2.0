@@ -216,18 +216,18 @@ export default {
     title: "Bildung",
     items: [
       {
-        institute: "Colombian Industrial Careers School",
-        title: "Ingenieurwesen, Systemtechnik",
-        description:
-          "4 Semester Studium, um den Ingenieurabschluss zu erreichen. Der Lehrinhalt umfasste Programmieralgorithmen, Funktionen, Algebra, Physik, Grundlagen des Ingenieurwesens.",
-        date: "2012 - 2014",
-      },
-      {
         institute: "Coder House",
         title: "Webentwicklung, Frontend Webentwickler",
         description:
           "Erstellung und Design von Webseiten mit HTML5, JS, CSS, Bootstrap, jQuery, APIs, Animationen. Als Autodidakt konnte ich meine beruflichen Fähigkeiten verbessern.",
         date: "2015 - 2016",
+      },
+      {
+        institute: "Colombian Industrial Careers School",
+        title: "Ingenieurwesen, Systemtechnik",
+        description:
+          "4 Semester Studium, um den Ingenieurabschluss zu erreichen. Der Lehrinhalt umfasste Programmieralgorithmen, Funktionen, Algebra, Physik, Grundlagen des Ingenieurwesens.",
+        date: "2012 - 2014",
       },
     ],
   },

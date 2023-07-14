@@ -214,18 +214,18 @@ export default {
     title: "Education",
     items: [
       {
-        institute: "Colombian Industrial Careers School",
-        title: "Engineering, System Engineering",
-        description:
-          "4 semesters of studies to reach the engineering degree. The content of the studies included programming algorithms, functions, algebra, physics, and fundamentals of engineering.",
-        date: "2012 - 2014",
-      },
-      {
         institute: "Coder House",
         title: "Web Development, Frontend Web Developer",
         description:
           "Creation and design of web pages with HTML5, JS, CSS, Bootstrap, jQuery, APIs, animations. As a self-educated person, I improved my professional skills.",
         date: "2015 - 2016",
+      },
+      {
+        institute: "Colombian Industrial Careers School",
+        title: "Engineering, System Engineering",
+        description:
+          "4 semesters of studies to reach the engineering degree. The content of the studies included programming algorithms, functions, algebra, physics, and fundamentals of engineering.",
+        date: "2012 - 2014",
       },
     ],
   },
