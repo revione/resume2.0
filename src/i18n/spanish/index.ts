@@ -174,7 +174,7 @@ export default {
         title: "Desarrollador Frontend",
         date: "Febrero 2016 - Febrero 2019",
         company: "Eulas S.A.",
-        description: `Mantenimiento del diseño y la funcionalidad de comercio electrónico. El negocio se ubicaba en Estados Unidos. Se realizaron proyectos con las siguientes empresas: Ascena Group, Stadium Goods, Children Place. Se utilizaron las siguientes tecnologías para los proyectos:
+        description: `Mantenimiento del diseño y la funcionalidad de comercio electrónico. El negocio se ubicaba en Estados Unidos. Se realizaron proyectos con las siguientes empresas: Ascena Group, Stadium Goods, Children Place.
           Proyectos en los que trabajé en Eulas:
           - https://www.louandgrey.com/
           - https://www.anntaylor.com/ `,

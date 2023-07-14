@@ -170,7 +170,7 @@ export default {
         title: "Frontend Developer",
         date: "February 2016 - February 2019",
         company: "Eulas S.A.",
-        description: `Maintained the design and functionality of e-commerce. The business was located in the United States of America. Projects were realized with the following companies: Ascena Group, Stadium Goods, Children Place. The following technologies were used for the projects:  
+        description: `Maintained the design and functionality of e-commerce. The business was located in the United States of America. Projects were realized with the following companies: Ascena Group, Stadium Goods, Children Place.  
           Projects worked on in Eulas:
           - https://www.louandgrey.com/
           - https://www.anntaylor.com/ `,
