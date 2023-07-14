@@ -43,7 +43,7 @@ export default {
   summary: {
     title: "Summary",
     description: [
-      "I have been offering my services as a Frontend developer for over 8 years, gaining extensive experience in developing complex and scalable projects.",
+      "I have been offering my services as a Frontend developer for over 7 years, gaining extensive experience in developing complex and scalable projects.",
       "With a strong ability to tackle diverse tasks and deliver exceptional results, I am dedicated to delivering high-quality frontend solutions.",
     ],
   },
@@ -102,7 +102,6 @@ export default {
           Collaborated closely with designers and developers to contribute to design development and take on extensive frontend development responsibilities.
           Actively participated in meetings to allocate tasks, ensuring alignment with project goals and collaborating with QA in testing efforts.
           Demonstrated innovation by adopting new technology stacks, including Next.js, and closely supported the DevOps team in CI/CD processes.`,
-
         technologies: [
           "Node.js",
           "Nestjs",
@@ -126,7 +125,7 @@ export default {
         date: "September 2020 - February 2021",
         company: "Making Sense",
         description: `My responsibility was to be a connection between Designers and Developers. 
-  One of my tasks was to communicate my knowledge about the software, design, and user experience. For this, I participated in discussions to agree upon the easiest and best approach to handle the Technology stack and best architect model.`,
+          One of my tasks was to communicate my knowledge about the software, design, and user experience. For this, I participated in discussions to agree upon the easiest and best approach to handle the Technology stack and best architect model.`,
         technologies: [
           "Node.js",
           "React",
@@ -150,8 +149,7 @@ export default {
         date: "March 2019 - September 2020",
         company: "Wenance",
         description: `Solution thinker and provider. With my engineering capabilities, complex projects in the Financial industry will be brought to life. In internal projects, client identifying data will be processed. To fulfill the requirements of these projects, applications and multiple languages are used, such as:
-  
-  React, Redux, Node.js, JavaScript, CSS Styles (Sass with styled components), REST API.`,
+          React, Redux, Node.js, JavaScript, CSS Styles (Sass with styled components), REST API.`,
         technologies: [
           "Node.js",
           "Nest.js",
@@ -176,15 +174,43 @@ export default {
         title: "Frontend Developer",
         date: "February 2016 - February 2019",
         company: "Eulas S.A.",
-        description: `Maintained the design and functionality of e-commerce. The business was located in the United States of America. Projects were realized with the following companies: Ascena Group, Stadium Goods, Children Place. The following technologies were used for the projects:
-  
-  HTML5, CSS3, JS, AJAX, JQuery, Sass, Node.js, Express, React, Redux, OOP, Functional Programming, Jira, CMS, Webpack, Grunt.
-  
-  Projects worked on in Eulas:
-  - https://www.louandgrey.com/
-  - https://www.anntaylor.com/
-  
-  Kanban and Scrum are used as agile working methods in the above projects.`,
+        description: `Maintained the design and functionality of e-commerce. The business was located in the United States of America. Projects were realized with the following companies: Ascena Group, Stadium Goods, Children Place. The following technologies were used for the projects:  
+          Projects worked on in Eulas:
+          - https://www.louandgrey.com/
+          - https://www.anntaylor.com/ `,
+        technologies: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "AJAX",
+          "JQuery",
+          "SaaS",
+          "Node.js",
+          "Express",
+          "React",
+          "Redux",
+          "OPP",
+          "Functional Programming",
+          "CMS",
+          "Webpack",
+          "Grunt",
+          "Node.js",
+          "Nest.js",
+          "Next.js",
+          "React",
+          "Redux",
+          "JavaScript",
+          "Typescript",
+          "AWS",
+          "Docker",
+          "Github",
+          "CI/CD",
+          "Figma",
+          "Sketch",
+          "Jira",
+          "SCRAM",
+          "CSS",
+        ],
       },
     ],
   },
@@ -195,7 +221,7 @@ export default {
         institute: "Colombian Industrial Careers School",
         title: "Engineering, System Engineering",
         description:
-          "3 semesters of studies to reach the engineering degree. The content of the studies included programming algorithms, functions, algebra, physics, and fundamentals of engineering.",
+          "4 semesters of studies to reach the engineering degree. The content of the studies included programming algorithms, functions, algebra, physics, and fundamentals of engineering.",
         date: "2012 - 2014",
       },
       {
@@ -212,25 +238,25 @@ export default {
     items: [
       {
         title: "CV website",
-        url: "https://resume.rev.earth/",
+        url: "https:resume.rev.earth",
         description:
           "Enhance your experience by browsing my resume online and having the option to print it whenever you desire. Everything you need is just one click away!",
       },
       {
         title: "Rev Earth",
-        url: "https://rev.earth/",
+        url: "https:rev.earth",
         description:
           "As part of its awareness-raising mission, Rev Earth facilitates connections between people.",
       },
       {
         title: "Tic-Tac-Toe AI",
-        url: "https://tic-tac-toe.rev.earth/",
+        url: "https:tic-tac-toe.rev.earth",
         description:
           "You! Beat it! \n Unbeatable Tic-Tac-Toe game using AI will try to beat you! Technologies: React and Minimax Algorithm and Alpha Beta.",
       },
       {
         title: "CRM Seller",
-        url: "https://crm-seller-front.vercel.app/login",
+        url: "https:crm-seller-front.vercel.app/login",
         description:
           "This system allows companies to add, delete, and manage their sellers. As for the sellers, they can add, delete, and manage the products of the company and the customers.",
       },

@@ -1,5 +1,4 @@
 import Languages from "common/Languages";
-import resume from "data/resume";
 
 import { useTranslation } from "react-i18next";
 

@@ -43,7 +43,7 @@ export default {
   summary: {
     title: "Resumen",
     description: [
-      "Ofrezco mis servicios como desarrollador Frontend desde hace más de 8 años, adquiriendo una amplia experiencia en el desarrollo de proyectos complejos y escalables.",
+      "Ofrezco mis servicios como desarrollador Frontend desde hace más de 7 años, adquiriendo una amplia experiencia en el desarrollo de proyectos complejos y escalables.",
       "Con una gran capacidad para abordar diversas tareas y ofrecer resultados excepcionales, me dedico a proporcionar soluciones frontend de alta calidad.",
     ],
   },
@@ -178,14 +178,42 @@ export default {
         date: "Febrero 2016 - Febrero 2019",
         company: "Eulas S.A.",
         description: `Mantenimiento del diseño y la funcionalidad de comercio electrónico. El negocio se ubicaba en Estados Unidos. Se realizaron proyectos con las siguientes empresas: Ascena Group, Stadium Goods, Children Place. Se utilizaron las siguientes tecnologías para los proyectos:
-  
-  HTML5, CSS3, JS, AJAX, JQuery, Sass, Node.js, Express, React, Redux, OOP, Programación Funcional, Jira, CMS, Webpack, Grunt.
-  
-  Proyectos en los que trabajé en Eulas:
-  - https://www.louandgrey.com/
-  - https://www.anntaylor.com/
-  
-  Se utilizan los métodos de trabajo ágiles Kanban y Scrum en los proyectos mencionados anteriormente.`,
+          Proyectos en los que trabajé en Eulas:
+          - https://www.louandgrey.com/
+          - https://www.anntaylor.com/ `,
+        technologies: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "AJAX",
+          "JQuery",
+          "SaaS",
+          "Node.js",
+          "Express",
+          "React",
+          "Redux",
+          "OPP",
+          "Functional Programming",
+          "CMS",
+          "Webpack",
+          "Grunt",
+          "Node.js",
+          "Nest.js",
+          "Next.js",
+          "React",
+          "Redux",
+          "JavaScript",
+          "Typescript",
+          "AWS",
+          "Docker",
+          "Github",
+          "CI/CD",
+          "Figma",
+          "Sketch",
+          "Jira",
+          "SCRAM",
+          "CSS",
+        ],
       },
     ],
   },
@@ -196,7 +224,7 @@ export default {
         institute: "Escuela de Carreras Industriales de Colombia",
         title: "Ingeniería, Ingeniería de Sistemas",
         description:
-          "3 semestres de estudios para obtener el título de ingeniería. El contenido de los estudios incluía algoritmos de programación, funciones, álgebra, física y fundamentos de ingeniería.",
+          "4 semestres de estudios para obtener el título de ingeniería. El contenido de los estudios incluía algoritmos de programación, funciones, álgebra, física y fundamentos de ingeniería.",
         date: "2012 - 2014",
       },
       {
@@ -213,25 +241,25 @@ export default {
     items: [
       {
         title: "Sitio web de CV",
-        url: "https://resume.rev.earth/",
+        url: "https:resume.rev.earth",
         description:
           "Mejora tu experiencia navegando por mi currículum en línea y ten la opción de imprimirlo cuando lo desees. ¡Todo lo que necesitas está a solo un clic de distancia!",
       },
       {
         title: "Rev Earth",
-        url: "https://rev.earth/",
+        url: "https:rev.earth",
         description:
           "Como parte de su misión de concienciación, Rev Earth facilita las conexiones entre las personas.",
       },
       {
         title: "Tic-Tac-Toe IA",
-        url: "https://tic-tac-toe.rev.earth/",
+        url: "https:tic-tac-toe.rev.earth",
         description:
           "¡Tú contra la IA! \n Juego de Tic-Tac-Toe imbatible que utiliza IA para intentar vencerte. Tecnologías: React y algoritmo Minimax y Alpha Beta.",
       },
       {
         title: "CRM Vendedor",
-        url: "https://crm-seller-front.vercel.app/login",
+        url: "https:crm-seller-front.vercel.app/login",
         description:
           "Este sistema permite a las empresas agregar, eliminar y gestionar a sus vendedores. En cuanto a los vendedores, pueden agregar, eliminar y gestionar los productos de la empresa y los clientes.",
       },

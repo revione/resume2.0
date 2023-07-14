@@ -43,7 +43,7 @@ export default {
   summary: {
     title: "Zusammenfassung",
     description: [
-      "Ich biete seit über 8 Jahren meine Dienste als Frontend-Entwickler an und habe umfangreiche Erfahrungen in der Entwicklung komplexer und skalierbarer Projekte gesammelt.",
+      "Ich biete seit über 7 Jahren meine Dienste als Frontend-Entwickler an und habe umfangreiche Erfahrungen in der Entwicklung komplexer und skalierbarer Projekte gesammelt.",
       "Mit der Fähigkeit, unterschiedliche Aufgaben anzugehen und außergewöhnliche Ergebnisse zu liefern, widme ich mich der Bereitstellung hochwertiger Frontend-Lösungen.",
     ],
   },
@@ -177,14 +177,42 @@ export default {
         date: "Februar 2016 - Februar 2019",
         company: "Eulas S.A.",
         description: `Aufrechterhaltung des Designs und der Funktionalität von E-Commerce-Websites. Das Unternehmen befand sich in den Vereinigten Staaten von Amerika. Die Projekte wurden mit folgenden Unternehmen realisiert: Ascena Group, Stadium Goods, Children Place. Für die Projekte wurden folgende Technologien verwendet:
-  
-  HTML5, CSS3, JS, AJAX, JQuery, Sass, Node.js, Express, React, Redux, OOP, Funktionale Programmierung, Jira, CMS, Webpack, Grunt.
-  
-  Projekte, an denen ich bei Eulas gearbeitet habe:
-  - https://www.louandgrey.com/
-  - https://www.anntaylor.com/
-  
-  In den obigen Projekten werden agile Arbeitsmethoden wie Kanban und Scrum verwendet.`,
+          Projekte, an denen ich bei Eulas gearbeitet habe:
+          - https://www.louandgrey.com/
+          - https://www.anntaylor.com/ `,
+        technologies: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "AJAX",
+          "JQuery",
+          "SaaS",
+          "Node.js",
+          "Express",
+          "React",
+          "Redux",
+          "OPP",
+          "Functional Programming",
+          "CMS",
+          "Webpack",
+          "Grunt",
+          "Node.js",
+          "Nest.js",
+          "Next.js",
+          "React",
+          "Redux",
+          "JavaScript",
+          "Typescript",
+          "AWS",
+          "Docker",
+          "Github",
+          "CI/CD",
+          "Figma",
+          "Sketch",
+          "Jira",
+          "SCRAM",
+          "CSS",
+        ],
       },
     ],
   },
@@ -195,7 +223,7 @@ export default {
         institute: "Colombian Industrial Careers School",
         title: "Ingenieurwesen, Systemtechnik",
         description:
-          "3 Semester Studium, um den Ingenieurabschluss zu erreichen. Der Lehrinhalt umfasste Programmieralgorithmen, Funktionen, Algebra, Physik, Grundlagen des Ingenieurwesens.",
+          "4 Semester Studium, um den Ingenieurabschluss zu erreichen. Der Lehrinhalt umfasste Programmieralgorithmen, Funktionen, Algebra, Physik, Grundlagen des Ingenieurwesens.",
         date: "2012 - 2014",
       },
       {
@@ -212,25 +240,25 @@ export default {
     items: [
       {
         title: "CV-Website",
-        url: "https://resume.rev.earth/",
+        url: "https:resume.rev.earth",
         description:
           "Verbessern Sie Ihre Erfahrung, indem Sie meinen Lebenslauf online durchsuchen und ihn bei Bedarf drucken können. Alles, was Sie brauchen, ist nur einen Klick entfernt!",
       },
       {
         title: "Rev Earth",
-        url: "https://rev.earth/",
+        url: "https:rev.earth",
         description:
           "Im Rahmen ihrer Sensibilisierungsmission erleichtert Rev Earth die Verbindung zwischen Menschen.",
       },
       {
         title: "Tic-Tac-Toe KI",
-        url: "https://tic-tac-toe.rev.earth/",
+        url: "https:tic-tac-toe.rev.earth",
         description:
           "Du! Besiege es! \n Das unbesiegbare Tic-Tac-Toe-Spiel mit KI wird versuchen, dich zu schlagen! Technologien: React und Minimax-Algorithmus und Alpha Beta.",
       },
       {
         title: "CRM-Verkäufer",
-        url: "https://crm-seller-front.vercel.app/login",
+        url: "https:crm-seller-front.vercel.app/login",
         description:
           "Mit diesem System können Unternehmen ihre Verkäufer hinzufügen, löschen und verwalten. Die Verkäufer können wiederum die Produkte des Unternehmens und die Kunden hinzufügen, löschen und verwalten.",
       },

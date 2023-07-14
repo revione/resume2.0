@@ -176,25 +176,25 @@ Kaban and Scrum as agile working methods are used in the projects above.`,
     items: [
       {
         title: "CV website",
-        url: "https://resume.rev.earth/",
+        url: "https:resume.rev.earth",
         description:
           "Enhance your experience by browsing my resume online and having the option to print it whenever you desire. Everything you need is just one click away!",
       },
       {
         title: "Rev Earth",
-        url: "https://rev.earth/",
+        url: "https:rev.earth",
         description:
           "As part of its awareness-raising mission, Rev Earth facilitates connections between people",
       },
       {
         title: "Tic-Tac-Toe AI",
-        url: "https://tic-tac-toe.rev.earth/",
+        url: "https:tic-tac-toe.rev.earth",
         description:
           "You! Beat it! \n Unbeatable Tic-Tac-Toe game using AI will try to beat you! technologies: React and Minimax Algorithm and Alpha Beta.",
       },
       {
         title: "CRM Seller",
-        url: "https://crm-seller-front.vercel.app/login",
+        url: "https:crm-seller-front.vercel.app/login",
         description:
           "This system allows companies to add, delete, and manage their sellers. As for the sellers, they can add, delete, and manage the products of the company and the customers.",
       },
