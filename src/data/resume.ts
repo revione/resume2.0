@@ -8,7 +8,7 @@ export default {
     title: "Summary",
     description: [
       "I have been offering my services as a Frontend developer for over 8 years, gaining extensive experience in developing complex and scalable projects.",
-      "With a strong ability to tackle diverse tasks and deliver exceptional results, I am dedicated to delivering high-quality frontend solutions.",
+      "With a strong ability to tackle diverse tasks and deliver exceptional results, I am dedicated to delivering high-quality Software solutions.",
     ],
   },
   responsibilities: {

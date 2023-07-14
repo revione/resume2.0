@@ -93,18 +93,22 @@ const Experiences = () => {
           experiencesItems as {
             company: string;
             date: string;
+            title: string;
             description: string;
             technologies: string[];
           }[]
         ).map((experience, i) => (
           <li key={i} className="mb-6">
-            <div className="font-semibold flex gap-4 mb-2">
+            <div className="font-semibold flex gap-4 ">
               <div className="text-xl print:text-lg">
                 {t(experience.company)}
               </div>
               <div className="text-base leading-7 print:text-xs print:leading-8">
                 {t(experience.date)}
               </div>
+            </div>
+            <div className="font-semibold text-xl print:text-lg mb-2">
+              {t(experience.title)}
             </div>
             <p className="mb-2">{t(experience.description)}</p>
             <p>
