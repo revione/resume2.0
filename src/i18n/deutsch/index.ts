@@ -47,21 +47,6 @@ export default {
       " Im Anschluss daran stelle ich die Lösung bereit und präsentiere sie.",
     ],
   },
-  responsibilities: {
-    title: "Soft Skills",
-    pre: "Soft Skills, an denen ich beteiligt bin:",
-    items: [
-      "Verständnis für das geschäftliche Problem",
-      "Umsetzung des Problems in eine Architektur",
-      "Transformation der Architektur in eine Lösung",
-      "Testen der Lösung, Bereitstellen und Präsentieren.",
-    ],
-  },
-  technologyExpertise: {
-    title: "Technische Kompetenz",
-    pre: "Ich habe Fachkenntnisse in folgenden Bereichen:",
-    items: ["REST-API, Websockets", "GraphQl", "Closures", "Hooks"],
-  },
   skills: {
     title: "Fähigkeiten",
     items: [

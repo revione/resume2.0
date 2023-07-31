@@ -47,21 +47,6 @@ export default {
       "With a strong ability to tackle diverse tasks and deliver exceptional results, I am dedicated to delivering high-quality Software solutions.",
     ],
   },
-  responsibilities: {
-    title: "Responsibilities",
-    pre: "Responsibilities that I take part in:",
-    items: [
-      "Understanding of the business problem",
-      "Converting the problem into an architecture",
-      "Transforming the architecture into a solution",
-      "Testing the solution, deploying, and presenting it.",
-    ],
-  },
-  technologyExpertise: {
-    title: "Technology Expertise",
-    pre: "I have expertise in these areas:",
-    items: ["REST API, Websockets", "GraphQL", "Closures", "Hooks"],
-  },
   skills: {
     title: "Skills",
     items: [

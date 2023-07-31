@@ -2,6 +2,8 @@ import Languages from "common/Languages";
 
 import { useTranslation } from "react-i18next";
 
+import { motion } from "framer-motion";
+
 const Title = ({ children }: { children: string }) => (
   <h3 className="font-semibold text-2xl mb-2 print:text-xl relative pl-2 -left-2">
     <span className="absolute h-full border-l-2 border-teal-300 left-0 top-0"></span>
@@ -43,36 +45,6 @@ const Summary = () => {
           <span key={i}>{d}</span>
         ))}
       </p>
-    </div>
-  );
-};
-
-const Responsibilities = () => {
-  const { t } = useTranslation();
-
-  const responsibilitiesItems = t("responsibilities.items", {
-    returnObjects: true,
-  });
-
-  return (
-    <div className="mb-8">
-      <Title>{t("responsibilities.title")}</Title>
-      <p>{(responsibilitiesItems as string[]).join(", ")}</p>
-    </div>
-  );
-};
-
-const TechnologyExpertise = () => {
-  const { t } = useTranslation();
-
-  const technologyExpertiseItems = t("technologyExpertise.items", {
-    returnObjects: true,
-  });
-
-  return (
-    <div className="mb-8">
-      <Title>{t("technologyExpertise.title")}</Title>
-      <p>{(technologyExpertiseItems as string[]).join(", ")}</p>
     </div>
   );
 };
@@ -258,7 +230,15 @@ const Social = () => {
 
 const App = () => {
   return (
-    <div className="w-full  flex justify-center  md:p-10 print:p-0 print:md:p-0">
+    <motion.div
+      initial={{
+        opacity: 0,
+      }}
+      animate={{
+        opacity: 1,
+      }}
+      className="w-full  flex justify-center  md:p-10 print:p-0 print:md:p-0"
+    >
       <div className="shadow-2xl shadow-cyan-500/50 print:shadow-none">
         <Header />
 
@@ -273,8 +253,6 @@ const App = () => {
           {/* Left */}
           <div className="w-full md:w-3/5">
             <Summary />
-            <Responsibilities />
-            <TechnologyExpertise />
             <Experiences />
             <Education />
           </div>
@@ -286,7 +264,7 @@ const App = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

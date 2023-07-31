@@ -47,21 +47,6 @@ export default {
       "Con una gran capacidad para abordar diversas tareas y ofrecer resultados excepcionales, me dedico a proporcionar soluciones de Software de alta calidad.",
     ],
   },
-  responsibilities: {
-    title: "Responsabilidades",
-    pre: "Responsabilidades en las que participo:",
-    items: [
-      "Comprensión del problema comercial",
-      "Convertir el problema en una arquitectura",
-      "Transformar la arquitectura en una solución",
-      "Probar la solución, implementarla y presentarla",
-    ],
-  },
-  technologyExpertise: {
-    title: "Experiencia en tecnología",
-    pre: "Tengo experiencia en estas áreas:",
-    items: ["API REST, Websockets", "GraphQL", "Closures", "Hooks"],
-  },
   skills: {
     title: "Habilidades",
     items: [
