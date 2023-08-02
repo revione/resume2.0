@@ -126,7 +126,7 @@ const Education = () => {
             <div className="font-bold text-lg flex gap-4 print:text-base">
               {t(education.title)}
             </div>
-            <p>{t(education.description)}</p>
+            {/* <p>{t(education.description)}</p> */}
           </li>
         ))}
       </ul>
