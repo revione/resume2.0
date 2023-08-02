@@ -236,6 +236,11 @@ const App = () => {
       }}
       animate={{
         opacity: 1,
+        transition: {
+          delay: 0.3,
+          duration: 2,
+          ease: "easeIn",
+        },
       }}
       className="w-full  flex justify-center  md:p-10 print:p-0 print:md:p-0"
     >
