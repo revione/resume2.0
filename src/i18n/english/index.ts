@@ -188,8 +188,7 @@ export default {
   summary: {
     title: "Summary",
     description: [
-      "I have been offering my services as a Frontend developer for over 7 years, gaining extensive experience in developing complex and scalable projects.",
-      "With a strong ability to tackle diverse tasks and deliver exceptional results, I am dedicated to delivering high-quality Software solutions.",
+      "I am a web developer with over 7 years of experience, providing digital solutions for large-scale projects.",
     ],
   },
   skills: {

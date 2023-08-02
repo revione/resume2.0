@@ -178,8 +178,8 @@ const Skills = () => {
       <ul className="flex flex-col gap-2 mt-4">
         {(skillsItems as { name: string; time: string }[]).map((skill, i) => (
           <li key={i} className="flex">
-            <div className="w-1/3">{t(skill.name)}</div>
-            <div className="w-1/3">{t(skill.time)}</div>
+            <div className="w-3/5">{t(skill.name)}</div>
+            <div className="w-2/5">{t(skill.time)}</div>
           </li>
         ))}
       </ul>
@@ -238,11 +238,14 @@ const App = () => {
         opacity: 1,
         transition: {
           delay: 0.3,
-          duration: 2,
+          duration: 1,
           ease: "easeIn",
         },
       }}
-      className="w-full  flex justify-center  md:p-10 print:p-0 print:md:p-0"
+      className="w-full flex justify-center 
+      md:p-10 
+      print:p-0 
+      print:md:p-0"
     >
       <div className="shadow-2xl shadow-cyan-500/50 print:shadow-none">
         <Header />
@@ -250,19 +253,20 @@ const App = () => {
         {/* Body */}
         <div
           className={`
-              flex max-w-screen-lg m-auto p-10
-              flex-col md:flex-row gap-4 md:gap-16
-              print:m-0 print:p-5
-              `}
+            grid grid-flow-col-dense
+            max-w-screen-lg m-auto p-10
+            md:flex-row gap-4 md:gap-16
+            print:m-0 print:p-5 print:gap-8
+          `}
         >
           {/* Left */}
-          <div className="w-full md:w-3/5">
+          <div className="col-span-4">
             <Summary />
             <Experiences />
             <Education />
           </div>
           {/* Right */}
-          <div className="w-full md:w-2/5">
+          <div className="col-span-1">
             <Projects />
             <Skills />
             <Social />

@@ -179,8 +179,7 @@ export default {
   summary: {
     title: "Zusammenfassung",
     description: [
-      "Ich habe ein gutes Auffassungsvermögen und entwickle schnell ein Verständnis für ein geschäftliches Problem, setze es in eine Architektur um, transformiere diese in eine Lösung, die ich teste.",
-      " Im Anschluss daran stelle ich die Lösung bereit und präsentiere sie.",
+      "Ich bin ein Webentwickler mit über 7 Jahren Erfahrung und biete digitale Lösungen für Großprojekte an",
     ],
   },
   skills: {

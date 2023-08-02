@@ -7,7 +7,7 @@ const languages = {
 const head = {
   name: "Oliver Ramirez Garcia",
   carrier: "Senior Frontend",
-  email: "oliiv@outlook.com",
+  email: "oliver@web.de",
 };
 
 const social = {
@@ -186,8 +186,7 @@ export default {
   summary: {
     title: "Resumen",
     description: [
-      "Ofrezco mis servicios como desarrollador Frontend desde hace más de 7 años, adquiriendo una amplia experiencia en el desarrollo de proyectos complejos y escalables.",
-      "Con una gran capacidad para abordar diversas tareas y ofrecer resultados excepcionales, me dedico a proporcionar soluciones de Software de alta calidad.",
+      "Soy desarrollador web con más de 7 años de experiencia, brindando soluciones digitales para proyectos de gran envergadura.",
     ],
   },
   skills: {
