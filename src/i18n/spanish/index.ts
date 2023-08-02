@@ -44,7 +44,7 @@ const experiences = {
       title: "Senior Frontend",
       date: "Octubre 2022 - Marzo 2023",
       company: "Opentalk",
-      description: `Una empresa alemana enfocada en las videoconferencias, estuvimos estrechamente trabajando con nuevas tecnologías tales como, React, Redux, JavaScript, Typescript, Streaming, Webscokets, Jest con varios equipos de desarrollo, usando como metodología ágil SCRAM.`,
+      description: `Una empresa alemana enfocada en las videoconferencias, estuvimos estrechamente trabajando con nuevas tecnologías tales como, React, Redux, JavaScript, Typescript, Streaming, Webscokets, Jest con varios equipos de desarrollo, usando como metodología ágil SCRUM.`,
 
       technologies: [
         "Node.js",
@@ -53,7 +53,7 @@ const experiences = {
         "JavaScript",
         "Typescript",
         "Gitlab",
-        "SCRAM",
+        "SCRUM",
       ],
     },
     {
@@ -79,7 +79,7 @@ const experiences = {
         "CI/CD",
         "MySql",
         "Prisma",
-        "SCRAM",
+        "SCRUM",
         "Styled Componets",
       ],
     },
@@ -89,7 +89,7 @@ const experiences = {
       company: "Making Sense",
       description: `En Making Sense, una empresa centrada en la experiencia del usuario, me especialicé en mejorar interfaces e interacciones para enriquecer la experiencia del usuario en nuestras aplicaciones. Tuve la oportunidad de participar en diversos proyectos, uno de los más destacados fue una aplicación para canjeo de puntos para una importante empresa de gasolineras en Estados Unidos.
 
-      En este proyecto, utilizamos tecnologías como React Native con Styled Components y aprovechamos Ionic para el desarrollo. Además, implementamos pruebas unitarias y pruebas e2e con Jest para garantizar la calidad del producto final. Durante todo el proceso, seguimos una metodología ágil, en concreto, SCRAM.`,
+      En este proyecto, utilizamos tecnologías como React Native con Styled Components y aprovechamos Ionic para el desarrollo. Además, implementamos pruebas unitarias y pruebas e2e con Jest para garantizar la calidad del producto final. Durante todo el proceso, seguimos una metodología ágil, en concreto, SCRUM.`,
 
       technologies: [
         "Node.js",
@@ -106,7 +106,7 @@ const experiences = {
         "Figma",
         "Sketch",
         "Jira",
-        "SCRAM",
+        "SCRUM",
       ],
     },
     {
@@ -129,7 +129,7 @@ const experiences = {
         "Figma",
         "Sketch",
         "Jira",
-        "SCRAM",
+        "SCRUM",
         "CSS",
         "Sass",
       ],
@@ -138,7 +138,7 @@ const experiences = {
       title: "Desarrollador Frontend",
       date: "Febrero 2016 - Febrero 2019",
       company: "Eulas S.A. / Minutentag",
-      description: `Trabajé con diversas tecnologías, como JavaScript, jQuery y un poco de PHP. Además, utilizamos Jira para el eficiente manejo de tickets, y para los estilos, implementamos Sass, empleamos HTML y potenciamos la interacción de los templates mediante Handlebars.js. Nuestro enfoque de trabajo fue el método Kanban y SCRAM.
+      description: `Trabajé con diversas tecnologías, como JavaScript, jQuery y un poco de PHP. Además, utilizamos Jira para el eficiente manejo de tickets, y para los estilos, implementamos Sass, empleamos HTML y potenciamos la interacción de los templates mediante Handlebars.js. Nuestro enfoque de trabajo fue el método Kanban y SCRUM.
       Los proyectos estaban relacionados con la industria de e-commerce. Con el paso del tiempo, la empresa adquirió más clientes, lo que llevó mi carrera a centrarse en el desarrollo de aplicaciones con React y Redux, utilizando Node.js como base.
   
         - https://www.louandgrey.com
@@ -173,7 +173,7 @@ const experiences = {
         "Figma",
         "Sketch",
         "Jira",
-        "SCRAM",
+        "SCRUM",
         "CSS",
       ],
     },

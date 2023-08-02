@@ -38,31 +38,35 @@ const social = {
 };
 
 const experiences = {
-  title: "Experience",
+  title: "Work Experience",
   items: [
     {
       title: "Senior Frontend",
       date: "October 2022 - March 2023",
       company: "Opentalk",
-      description: `My primary focus was developing user-facing web applications and reusable components. I implemented these components with the React framework using best practices and workflows. I ensured that I produced robust, secure, modular, and maintainable code. I worked with cross-functional teams, including backend engineers and product designers. My commitment to team collaboration, clear communication, and a quality product was crucial for that role.`,
+      // description: `My primary focus was developing user-facing web applications and reusable components. I implemented these components with the React framework using best practices and workflows. I ensured that I produced robust, secure, modular, and maintainable code. I worked with cross-functional teams, including backend engineers and product designers. My commitment to team collaboration, clear communication, and a quality product was crucial for that role.`,
+      description:
+        "Opentalk, a German company focused on video conferencing, where I worked closely with cutting-edge technologies like React, Redux, JavaScript, TypeScript, Streaming, WebSockets, and Jest. I collaborated with multiple development teams, using SCRUM as our agile methodology.",
       technologies: [
         "Node.js",
         "React",
         "Redux",
         "JavaScript",
-        "Typescript",
-        "Gitlab",
-        "SCRAM",
+        "TypeScript",
+        "GitLab",
+        "SCRUM",
       ],
     },
     {
-      title: "Senior Frontend / Lead",
+      title: "Senior Frontend / Team Lead",
       date: "February 2021 - March 2022",
       company: "Dev Base",
-      description: `
-          Collaborated closely with designers and developers to contribute to design development and take on extensive frontend development responsibilities.
-          Actively participated in meetings to allocate tasks, ensuring alignment with project goals and collaborating with QA in testing efforts.
-          Demonstrated innovation by adopting new technology stacks, including Next.js, and closely supported the DevOps team in CI/CD processes.`,
+      // description: `
+      //     Collaborated closely with designers and developers to contribute to design development and take on extensive frontend development responsibilities.
+      //     Actively participated in meetings to allocate tasks, ensuring alignment with project goals and collaborating with QA in testing efforts.
+      //     Demonstrated innovation by adopting new technology stacks, including Next.js, and closely supported the DevOps team in CI/CD processes.`,
+      description:
+        "At Dev Base, I participated in the development of various web pages and applications, including an informational and marketing page for a major construction company in Europe, as well as the prominent Tandym project, an online payment method for e-commerce in the United States. We worked with cutting-edge technologies like NEXT.js, React, JavaScript, TypeScript, Redux, Node.js, and Jest. Our Frontend team consisted of 5 members, collaborating closely with a Backend team of 4 members. Additionally, we had dedicated teams for Design and DevOps. Our agile approach was based on SCRUM.",
       technologies: [
         "Node.js",
         "Nestjs",
@@ -70,30 +74,32 @@ const experiences = {
         "React",
         "Redux",
         "JavaScript",
-        "Typescript",
+        "TypeScript",
         "AWS",
         "Docker",
         "Github",
         "CI/CD",
         "MySQL",
         "Prisma",
-        "SCRAM",
+        "SCRUM",
         "Styled Components",
       ],
     },
     {
-      title: "Front End / UI/UX Designer",
+      title: "Frontend / UI/UX Designer",
       date: "September 2020 - February 2021",
       company: "Making Sense",
-      description: `My responsibility was to be a connection between Designers and Developers. 
-          One of my tasks was to communicate my knowledge about the software, design, and user experience. For this, I participated in discussions to agree upon the easiest and best approach to handle the Technology stack and best architect model.`,
+      // description: `My responsibility was to be a connection between Designers and Developers.
+      //     One of my tasks was to communicate my knowledge about the software, design, and user experience. For this, I participated in discussions to agree upon the easiest and best approach to handle the Technology stack and best architect model.`,
+      description:
+        "At Making Sense, a user-focused company, I specialized in improving interfaces and interactions to enhance user experience in our applications. I had the opportunity to participate in various projects, with one of the highlights being an application for points redemption for a major gas station company in the United States. For this project, we utilized technologies like React Native with Styled Components and leveraged Ionic for development. We also implemented unit and e2e testing with Jest to ensure the quality of the final product. Our agile methodology of choice was SCRUM.",
       technologies: [
         "Node.js",
         "React",
         "React Native",
         "Redux",
         "JavaScript",
-        "Typescript",
+        "TypeScript",
         "Styled Components",
         "AWS",
         "Docker",
@@ -102,23 +108,25 @@ const experiences = {
         "Figma",
         "Sketch",
         "Jira",
-        "SCRAM",
+        "SCRUM",
       ],
     },
     {
       title: "Frontend Engineer",
       date: "March 2019 - September 2020",
       company: "Wenance",
-      description: `Solution thinker and provider. With my engineering capabilities, complex projects in the Financial industry will be brought to life. In internal projects, client identifying data will be processed. To fulfill the requirements of these projects, applications and multiple languages are used, such as:
-          React, Redux, Node.js, JavaScript, CSS Styles (Sass with styled components), REST API.`,
+      // description: `Solution thinker and provider. With my engineering capabilities, complex projects in the Financial industry will be brought to life. In internal projects, client identifying data will be processed. To fulfill the requirements of these projects, applications and multiple languages are used, such as:
+      //     React, Redux, Node.js, JavaScript, CSS Styles (Sass with styled components), REST API.`,
+      description:
+        "Wenance, a renowned Fintech company, was where we developed a web application that required a technological upgrade. We created and transformed the application from scratch using cutting-edge technologies such as React, Redux, Node.js, Axios, Sass, and Jest. The project was ambitious, and we had several development teams specializing in areas like Frontend, Backend, Design, Marketing, and Business, each consisting of 6 to 10 members. Our chosen agile methodology was SCRUM with Jira.",
       technologies: [
         "Node.js",
-        "Nest.js",
+        "Nestjs",
         "Next.js",
         "React",
         "Redux",
         "JavaScript",
-        "Typescript",
+        "TypeScript",
         "AWS",
         "Docker",
         "Github",
@@ -126,7 +134,7 @@ const experiences = {
         "Figma",
         "Sketch",
         "Jira",
-        "SCRAM",
+        "SCRUM",
         "CSS",
         "Sass",
       ],
@@ -134,17 +142,15 @@ const experiences = {
     {
       title: "Frontend Developer",
       date: "February 2016 - February 2019",
-      company: "Eulas S.A.",
-      description: `Maintained the design and functionality of e-commerce. The business was located in the United States of America. Projects were realized with the following companies: Ascena Group, Stadium Goods, Children Place.  
-          Projects worked on in Eulas:
-          - https://www.louandgrey.com/
-          - https://www.anntaylor.com/ `,
+      company: "Eulas S.A. / Minutentag",
+      description:
+        "At Eulas S.A. / Minutentag, I worked with diverse technologies such as JavaScript, jQuery, and some PHP. We used Jira for efficient ticket management and Sass for styling. For frontend, we employed HTML and enhanced template interaction with Handlebars.js. Our work methodology included both Kanban and SCRUM.",
       technologies: [
         "HTML5",
         "CSS3",
         "JavaScript",
         "AJAX",
-        "JQuery",
+        "jQuery",
         "SaaS",
         "Node.js",
         "Express",
@@ -161,7 +167,7 @@ const experiences = {
         "React",
         "Redux",
         "JavaScript",
-        "Typescript",
+        "TypeScript",
         "AWS",
         "Docker",
         "Github",
@@ -169,7 +175,7 @@ const experiences = {
         "Figma",
         "Sketch",
         "Jira",
-        "SCRAM",
+        "SCRUM",
         "CSS",
       ],
     },
