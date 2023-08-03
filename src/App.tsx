@@ -154,7 +154,7 @@ const Projects = () => {
               {t(project.title)}
             </div>
             <a href={project.url} rel="noopener noreferrer" target="_blank">
-              {t(project.url)}
+              {project.url}
             </a>
             <p className="mt-1">{t(project.description)}</p>
           </li>
