@@ -213,29 +213,29 @@ export default {
     ],
   },
   projects: {
-    title: "Projekte",
+    title: "Meine Projekte",
     items: [
       {
         title: "CV-Website",
-        url: "https:resume.rev.earth",
+        url: "resume.rev.earth",
         description:
           "Verbessern Sie Ihre Erfahrung, indem Sie meinen Lebenslauf online durchsuchen und ihn bei Bedarf drucken können. Alles, was Sie brauchen, ist nur einen Klick entfernt!",
       },
       {
         title: "Rev Earth",
-        url: "https:rev.earth",
+        url: "rev.earth",
         description:
           "Im Rahmen ihrer Sensibilisierungsmission erleichtert Rev Earth die Verbindung zwischen Menschen.",
       },
       {
         title: "Tic-Tac-Toe KI",
-        url: "https:tic-tac-toe.rev.earth",
+        url: "tic-tac-toe.rev.earth",
         description:
           "Du! Besiege es! \n Das unbesiegbare Tic-Tac-Toe-Spiel mit KI wird versuchen, dich zu schlagen! Technologien: React und Minimax-Algorithmus und Alpha Beta.",
       },
       {
         title: "CRM-Verkäufer",
-        url: "https:crm-seller-front.vercel.app/login",
+        url: "crm-seller-front.vercel.app/login",
         description:
           "Mit diesem System können Unternehmen ihre Verkäufer hinzufügen, löschen und verwalten. Die Verkäufer können wiederum die Produkte des Unternehmens und die Kunden hinzufügen, löschen und verwalten.",
       },
