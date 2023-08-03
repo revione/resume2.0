@@ -223,25 +223,25 @@ export default {
     items: [
       {
         title: "Sitio web de CV",
-        url: "https:resume.rev.earth",
+        url: "https://resume.rev.earth",
         description:
           "Mejora tu experiencia navegando por mi currículum en línea y ten la opción de imprimirlo cuando lo desees. ¡Todo lo que necesitas está a solo un clic de distancia!",
       },
       {
         title: "Rev Earth",
-        url: "https:rev.earth",
+        url: "https://rev.earth",
         description:
           "Como parte de su misión de concienciación, Rev Earth facilita las conexiones entre las personas.",
       },
       {
         title: "Tic-Tac-Toe IA",
-        url: "https:tic-tac-toe.rev.earth",
+        url: "https://tic-tac-toe.rev.earth",
         description:
           "¡Tú contra la IA! \n Juego de Tic-Tac-Toe imbatible que utiliza IA para intentar vencerte. Tecnologías: React y algoritmo Minimax y Alpha Beta.",
       },
       {
         title: "CRM Vendedor",
-        url: "https:crm-seller-front.vercel.app/login",
+        url: "https://crm-seller-front.vercel.app/login",
         description:
           "Este sistema permite a las empresas agregar, eliminar y gestionar a sus vendedores. En cuanto a los vendedores, pueden agregar, eliminar y gestionar los productos de la empresa y los clientes.",
       },
