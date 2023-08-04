@@ -83,10 +83,10 @@ const Experiences = () => {
               {t(experience.title)}
             </div>
             <p className="mb-2">{t(experience.description)}</p>
-            <p>
+            {/* <p>
               <span className="font-bold">{t("Stack technologies")}: </span>
               {experience.technologies?.join(", ")}
-            </p>
+            </p> */}
           </li>
         ))}
       </ul>
