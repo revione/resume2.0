@@ -113,7 +113,7 @@ const projects = {
   items: [
     {
       title: "Resume Website",
-      url: "https://lebensluaf.rev.earth",
+      url: "https://resume.rev.earth",
       description:
         "Browse my resume online and print it if needed. Everything is just a click away!",
     },
