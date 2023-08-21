@@ -20,8 +20,12 @@ const Header = () => {
     <div
       className={`print-bg bg-teal-300 dark:bg-emerald-900 p-10 mb-3 max-w-screen-lg print:m-0 print:mb-0 print:p-5`}
     >
-      <h1 className="font-bold text-5xl print:text-3xl">{t("head.name")}</h1>
-      <h2 className="font-bold text-5xl print:text-3xl">{t("head.carrier")}</h2>
+      <h1 className="font-bold text-5xl print:text-3xl mb-1">
+        {t("head.name")}
+      </h1>
+      <h2 className="font-bold text-3xl print:text-2xl mb-1">
+        {t("head.carrier")}
+      </h2>
       <div className="font-semibold text-xl print:text-xl">
         {t("head.email")}
       </div>
@@ -243,7 +247,6 @@ const App = () => {
       animate={{
         opacity: 1,
         transition: {
-          delay: 0.3,
           duration: 1,
           ease: "easeIn",
         },

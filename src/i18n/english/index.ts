@@ -1,34 +1,51 @@
 const languages = {
-  es: "español",
-  en: "english",
-  de: "deutsch",
+  es: "Spanish",
+  en: "English",
+  de: "German",
 };
 
 const head = {
   name: "Oliver Ramirez Garcia",
   carrier: "Senior Frontend",
-  email: "oliiv@outlook.com",
+  email: "oliver.rg@rev.earth",
+};
+
+const summary = {
+  title: "Summary",
+  description: [
+    "I am a software developer committed to business and product solutions. You can expect responsibility, leadership decision-making, as well as effective communication and resolution management from me.",
+  ],
+};
+
+const skills = {
+  title: "Skills",
+  items: [
+    { name: "JavaScript", time: "7 years" },
+    { name: "TypeScript", time: "7 years" },
+    { name: "React", time: "7 years" },
+    { name: "Redux", time: "7 years" },
+  ],
 };
 
 const social = {
   title: "Social",
   items: [
     {
-      title: "linkedin",
+      title: "LinkedIn",
       description: "linkedin.com/in/oliiv",
       link: "https://www.linkedin.com/in/oliiv/",
       srcImg:
         "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHJlY3QgeT0iMTYwIiBzdHlsZT0iZmlsbDojMTk3NkQyOyIgd2lkdGg9IjExNC40OTYiIGhlaWdodD0iMzUyIi8+DQoJPHBhdGggc3R5bGU9ImZpbGw6IzE5NzZEMjsiIGQ9Ik00MjYuMzY4LDE2NC4xMjhjLTEuMjE2LTAuMzg0LTIuMzY4LTAuOC0zLjY0OC0xLjE1MmMtMS41MzYtMC4zNTItMy4wNzItMC42NC00LjY0LTAuODk2DQoJCWMtNi4wOC0xLjIxNi0xMi43MzYtMi4wOC0yMC41NDQtMi4wOGwwLDBsMCwwYy02Ni43NTIsMC0xMDkuMDg4LDQ4LjU0NC0xMjMuMDQsNjcuMjk2VjE2MEgxNjB2MzUyaDExNC40OTZWMzIwDQoJCWMwLDAsODYuNTI4LTEyMC41MTIsMTIzLjA0LTMyYzAsNzkuMDA4LDAsMjI0LDAsMjI0SDUxMlYyNzQuNDY0QzUxMiwyMjEuMjgsNDc1LjU1MiwxNzYuOTYsNDI2LjM2OCwxNjQuMTI4eiIvPg0KCTxjaXJjbGUgc3R5bGU9ImZpbGw6IzE5NzZEMjsiIGN4PSI1NiIgY3k9IjU2IiByPSI1NiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=",
     },
     {
-      title: "email",
+      title: "Email",
       description: "oliiv@outlook.com",
       link: "mailto:oliiv@outlook.com",
       srcImg:
         "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyLjAwMSA1MTIuMDAxIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIuMDAxIDUxMi4wMDE7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIHN0eWxlPSJmaWxsOiMxRTg4RTU7IiBkPSJNNDk5LjYyOCw0MDcuNDY4Yy0xMC4xMjgsMTIuMTYtMjUuMTM0LDE5LjE5NC00MC45NiwxOS4ySDUzLjMzNA0KCWMtMTUuODI2LTAuMDA2LTMwLjgzMi03LjA0LTQwLjk2LTE5LjJsMTk1LjYyNy0xNjIuOTg3bDIwLjI2NywxMy44NjdjMTYuNjk1LDExLjUyLDM4Ljc3MiwxMS41Miw1NS40NjcsMGwyMC4yNjctMTMuODY3DQoJTDQ5OS42MjgsNDA3LjQ2OHoiLz4NCjxwYXRoIHN0eWxlPSJmaWxsOiM2NEI1RjY7IiBkPSJNNTAyLjYxNCwxMDguNTg4TDMwNC4wMDEsMjQ0LjQ4MWwtMjAuMjY3LDEzLjg2N2MtMTYuNjk1LDExLjUyLTM4Ljc3MiwxMS41Mi01NS40NjcsMA0KCWwtMjAuMjY3LTEzLjg2N0w5LjM4OCwxMDguMzc0YzkuOTk0LTE0LjQxMSwyNi40MDktMjMuMDE3LDQzLjk0Ny0yMy4wNGg0MDUuMzMzQzQ3Ni4yODUsODUuMjQxLDQ5Mi43ODEsOTMuOTY5LDUwMi42MTQsMTA4LjU4OHoiLz4NCjxnPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiMyMTk2RjM7IiBkPSJNMjA4LjAwMSwyNDQuNDgxTDEyLjM3NCw0MDcuNDY4Yy04LjAwNy05LjU3LTEyLjM4OC0yMS42NTUtMTIuMzczLTM0LjEzM1YxMzguNjY4DQoJCWMtMC4wNjUtMTAuODIzLDMuMjE0LTIxLjQwMyw5LjM4Ny0zMC4yOTNMMjA4LjAwMSwyNDQuNDgxeiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiMyMTk2RjM7IiBkPSJNNTEyLjAwMSwxMzguNjY4djIzNC42NjdjMC4wMTQsMTIuNDc4LTQuMzY2LDI0LjU2My0xMi4zNzMsMzQuMTMzTDMwNC4wMDEsMjQ0LjQ4MWwxOTguNjEzLTEzNS44OTMNCgkJQzUwOC43NTYsMTE3LjQxNCw1MTIuMDMzLDEyNy45MTUsNTEyLjAwMSwxMzguNjY4eiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=",
     },
     {
-      title: "git",
+      title: "GitHub",
       description: "github.com/revione",
       link: "https://github.com/revione",
       srcImg:
@@ -42,142 +59,81 @@ const experiences = {
   items: [
     {
       title: "Senior Frontend",
-      date: "October 2022 - March 2023",
+      date: "July 2022 - July 2023",
       company: "Opentalk",
-      // description: `My primary focus was developing user-facing web applications and reusable components. I implemented these components with the React framework using best practices and workflows. I ensured that I produced robust, secure, modular, and maintainable code. I worked with cross-functional teams, including backend engineers and product designers. My commitment to team collaboration, clear communication, and a quality product was crucial for that role.`,
       description:
-        "Opentalk, a German company focused on video conferencing, where I worked closely with cutting-edge technologies like React, Redux, JavaScript, TypeScript, Streaming, WebSockets, and Jest. I collaborated with multiple development teams, using SCRUM as our agile methodology.",
-      technologies: [
-        "Node.js",
-        "React",
-        "Redux",
-        "JavaScript",
-        "TypeScript",
-        "GitLab",
-        "SCRUM",
-      ],
+        "At Opentalk, a German company specializing in video conferencing, I worked closely with modern technologies such as React, Redux, JavaScript, TypeScript, Streaming, WebSockets, and Jest. I was part of multiple agile development teams and used SCRUM as our methodology.",
     },
     {
-      title: "Senior Frontend / Team Lead",
-      date: "February 2021 - March 2022",
+      title: "Senior Frontend / Team Leader",
+      date: "February 2021 - June 2023",
       company: "Dev Base",
-      // description: `
-      //     Collaborated closely with designers and developers to contribute to design development and take on extensive frontend development responsibilities.
-      //     Actively participated in meetings to allocate tasks, ensuring alignment with project goals and collaborating with QA in testing efforts.
-      //     Demonstrated innovation by adopting new technology stacks, including Next.js, and closely supported the DevOps team in CI/CD processes.`,
       description:
-        "At Dev Base, I participated in the development of various web pages and applications, including an informational and marketing page for a major construction company in Europe, as well as the prominent Tandym project, an online payment method for e-commerce in the United States. We worked with cutting-edge technologies like NEXT.js, React, JavaScript, TypeScript, Redux, Node.js, and Jest. Our Frontend team consisted of 5 members, collaborating closely with a Backend team of 4 members. Additionally, we had dedicated teams for Design and DevOps. Our agile approach was based on SCRUM.",
-      technologies: [
-        "Node.js",
-        "Nestjs",
-        "Next.js",
-        "React",
-        "Redux",
-        "JavaScript",
-        "TypeScript",
-        "AWS",
-        "Docker",
-        "Github",
-        "CI/CD",
-        "MySQL",
-        "Prisma",
-        "SCRUM",
-        "Styled Components",
-      ],
-    },
-    {
-      title: "Frontend / UI/UX Designer",
-      date: "September 2020 - February 2021",
-      company: "Making Sense",
-      // description: `My responsibility was to be a connection between Designers and Developers.
-      //     One of my tasks was to communicate my knowledge about the software, design, and user experience. For this, I participated in discussions to agree upon the easiest and best approach to handle the Technology stack and best architect model.`,
-      description:
-        "At Making Sense, a user-focused company, I specialized in improving interfaces and interactions to enhance user experience in our applications. I had the opportunity to participate in various projects, with one of the highlights being an application for points redemption for a major gas station company in the United States. For this project, we utilized technologies like React Native with Styled Components and leveraged Ionic for development. We also implemented unit and e2e testing with Jest to ensure the quality of the final product. Our agile methodology of choice was SCRUM.",
-      technologies: [
-        "Node.js",
-        "React",
-        "React Native",
-        "Redux",
-        "JavaScript",
-        "TypeScript",
-        "Styled Components",
-        "AWS",
-        "Docker",
-        "Github",
-        "CI/CD",
-        "Figma",
-        "Sketch",
-        "Jira",
-        "SCRUM",
-      ],
+        "At Dev Base, I contributed to the development of various websites and applications. This included creating an informational and marketing website for a leading construction company in Europe, as well as the notable Tandym project, an E-commerce online payment method in the United States. Working closely with a team of 5 frontend developers and a 4-member backend team, I utilized cutting-edge technologies such as NEXT.js, React, JavaScript, TypeScript, Redux, Node.js, and Jest. Additionally, specialized design and DevOps teams collaborated on the projects. Our agile approach was based on SCRUM.",
     },
     {
       title: "Frontend Engineer",
-      date: "March 2019 - September 2020",
+      date: "September 2019 - January 2021",
       company: "Wenance",
-      // description: `Solution thinker and provider. With my engineering capabilities, complex projects in the Financial industry will be brought to life. In internal projects, client identifying data will be processed. To fulfill the requirements of these projects, applications and multiple languages are used, such as:
-      //     React, Redux, Node.js, JavaScript, CSS Styles (Sass with styled components), REST API.`,
       description:
-        "Wenance, a renowned Fintech company, was where we developed a web application that required a technological upgrade. We created and transformed the application from scratch using cutting-edge technologies such as React, Redux, Node.js, Axios, Sass, and Jest. The project was ambitious, and we had several development teams specializing in areas like Frontend, Backend, Design, Marketing, and Business, each consisting of 6 to 10 members. Our chosen agile methodology was SCRUM with Jira.",
-      technologies: [
-        "Node.js",
-        "Nestjs",
-        "Next.js",
-        "React",
-        "Redux",
-        "JavaScript",
-        "TypeScript",
-        "AWS",
-        "Docker",
-        "Github",
-        "CI/CD",
-        "Figma",
-        "Sketch",
-        "Jira",
-        "SCRUM",
-        "CSS",
-        "Sass",
-      ],
+        "At Wenance, a renowned Fintech company, I worked on developing a sophisticated web application. This application required a comprehensive technological overhaul. I built and revamped the application from scratch using modern technologies like React, Redux, Node.js, Axios, Sass, and Jest. The project involved multiple development teams specializing in areas such as frontend, backend, design, marketing, and business. Our chosen agile methodology was SCRUM, supported by Jira.",
     },
     {
       title: "Frontend Developer",
       date: "February 2016 - February 2019",
       company: "Eulas S.A. / Minutentag",
       description:
-        "At Eulas S.A. / Minutentag, I worked with diverse technologies such as JavaScript, jQuery, and some PHP. We used Jira for efficient ticket management and Sass for styling. For frontend, we employed HTML and enhanced template interaction with Handlebars.js. Our work methodology included both Kanban and SCRUM.",
-      technologies: [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "AJAX",
-        "jQuery",
-        "SaaS",
-        "Node.js",
-        "Express",
-        "React",
-        "Redux",
-        "OPP",
-        "Functional Programming",
-        "CMS",
-        "Webpack",
-        "Grunt",
-        "Node.js",
-        "Nest.js",
-        "Next.js",
-        "React",
-        "Redux",
-        "JavaScript",
-        "TypeScript",
-        "AWS",
-        "Docker",
-        "Github",
-        "CI/CD",
-        "Figma",
-        "Sketch",
-        "Jira",
-        "SCRUM",
-        "CSS",
-      ],
+        "At Eulas S.A. / Minutentag, I worked with various technologies including JavaScript, jQuery, and PHP. We used Jira for efficient ticket management and Sass for styling. The frontend was optimized using HTML and Handlebars.js. Our work methodology encompassed both Kanban and SCRUM.",
+    },
+  ],
+};
+
+const education = {
+  title: "Education",
+  items: [
+    {
+      institute: "Coder House",
+      title: "Web Development, Frontend Developer",
+      description:
+        "Training in web development, with a focus on frontend development.",
+      date: "2015 - 2016",
+    },
+    {
+      institute: "Colombian Industrial Careers School",
+      title: "Engineering, Systems Engineering",
+      description:
+        "Studied engineering with a specialization in systems engineering.",
+      date: "2012 - 2014",
+    },
+  ],
+};
+
+const projects = {
+  title: "Projects",
+  items: [
+    {
+      title: "Resume Website",
+      url: "https://lebensluaf.rev.earth",
+      description:
+        "Browse my resume online and print it if needed. Everything is just a click away!",
+    },
+    {
+      title: "Rev Earth",
+      url: "https://rev.earth",
+      description:
+        "As part of its awareness mission, Rev Earth facilitates connections between people.",
+    },
+    {
+      title: "Rev Play",
+      url: "https://revtrade.rev.earth",
+      description:
+        "Automated application connection to markets via the Deriv API.",
+    },
+    {
+      title: "AI Tic Tac Toe",
+      url: "https://tic-tac-toe.rev.earth",
+      description:
+        "Challenge the unbeatable AI Tic-Tac-Toe game! Technologies: React, Minimax Algorithm, and Alpha Beta.",
     },
   ],
 };
@@ -185,69 +141,10 @@ const experiences = {
 export default {
   languages,
   head,
-  summary: {
-    title: "Summary",
-    description: [
-      "I am a software developer committed to business and product solutions. You can expect responsibility, leadership decision-making, as well as effective communication and resolution management from me.",
-    ],
-  },
-  skills: {
-    title: "Skills",
-    items: [
-      { name: "React", time: "7 years" },
-      { name: "Redux", time: "7 years" },
-      { name: "Typescript", time: "5 years" },
-      { name: "GraphQL", time: "4 years" },
-    ],
-  },
+  summary,
+  skills,
   experiences,
-  education: {
-    title: "Education",
-    items: [
-      {
-        institute: "Coder House",
-        title: "Web Development, Frontend Web Developer",
-        description:
-          "Creation and design of web pages with HTML5, JS, CSS, Bootstrap, jQuery, APIs, animations. As a self-educated person, I improved my professional skills.",
-        date: "2015 - 2016",
-      },
-      {
-        institute: "Colombian Industrial Careers School",
-        title: "Engineering, System Engineering",
-        description:
-          "4 semesters of studies to reach the engineering degree. The content of the studies included programming algorithms, functions, algebra, physics, and fundamentals of engineering.",
-        date: "2012 - 2014",
-      },
-    ],
-  },
-  projects: {
-    title: "My Projects",
-    items: [
-      {
-        title: "CV website",
-        url: "https://resume.rev.earth",
-        description:
-          "Enhance your experience by browsing my resume online and having the option to print it whenever you desire. Everything you need is just one click away!",
-      },
-      {
-        title: "Rev Earth",
-        url: "https://rev.earth",
-        description:
-          "As part of its awareness-raising mission, Rev Earth facilitates connections between people.",
-      },
-      {
-        title: "Tic-Tac-Toe AI",
-        url: "https://tic-tac-toe.rev.earth",
-        description:
-          "You! Beat it! \n Unbeatable Tic-Tac-Toe game using AI will try to beat you! Technologies: React and Minimax Algorithm and Alpha Beta.",
-      },
-      {
-        title: "CRM Seller",
-        url: "https://crm-seller-front.vercel.app/login",
-        description:
-          "This system allows companies to add, delete, and manage their sellers. As for the sellers, they can add, delete, and manage the products of the company and the customers.",
-      },
-    ],
-  },
+  education,
+  projects,
   social,
 };

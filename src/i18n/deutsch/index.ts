@@ -7,7 +7,24 @@ const languages = {
 const head = {
   name: "Oliver Ramirez Garcia",
   carrier: "Senior Frontend",
-  email: "oliiv@outlook.com",
+  email: "oliver.rg@rev.earth",
+};
+
+const summary = {
+  title: "Zusammenfassung",
+  description: [
+    "Ich bin ein Softwareentwickler, der sich für Geschäfts- und Produktlösungen engagiert. Sie können von mir Verantwortung, Führungsentscheidungen sowie effektive Kommunikation und Lösungsmanagement erwarten.",
+  ],
+};
+
+const skills = {
+  title: "Fähigkeiten",
+  items: [
+    { name: "JavaScript", time: "7 Jahre" },
+    { name: "Typescript", time: "7 Jahre" },
+    { name: "React", time: "7 Jahre" },
+    { name: "Redux", time: "7 Jahre" },
+  ],
 };
 
 const social = {
@@ -42,133 +59,80 @@ const experiences = {
   items: [
     {
       title: "Senior Frontend",
-      date: "Oktober 2022 - März 2023",
+      date: "Juli 2022 - Juli 2023",
       company: "Opentalk",
       description:
-        "Ich bin ein Softwareentwickler, der sich für Geschäfts- und Produktlösungen engagiert. Sie können von mir Verantwortung, Führungsentscheidungen sowie effektive Kommunikation und Lösungsmanagement erwarten.",
-      technologies: [
-        "Node.js",
-        "React",
-        "Redux",
-        "JavaScript",
-        "TypeScript",
-        "GitLab",
-        "SCRUM",
-      ],
+        "Bei Opentalk, einem deutschen Unternehmen, das sich auf Videokonferenzen spezialisiert hat, habe ich eng mit modernen Technologien wie React, Redux, JavaScript, TypeScript, Streaming, WebSockets und Jest gearbeitet. Ich war Teil mehrerer agiler Entwicklungsteams und habe SCRUM als unsere Methode für die agile Entwicklung angewendet.",
     },
     {
       title: "Senior Frontend / Teamleiter",
-      date: "Februar 2021 - März 2022",
+      date: "Februar 2021 - Juni 2023",
       company: "Dev Base",
       description:
-        "Bei Dev Base habe ich an der Entwicklung verschiedener Webseiten und Anwendungen mitgewirkt, darunter eine Informations- und Marketingseite für ein bedeutendes Bauunternehmen in Europa sowie das herausragende Projekt Tandym, eine Online-Zahlungsmethode für E-Commerce in den Vereinigten Staaten. Wir haben mit modernen Technologien wie NEXT.js, React, JavaScript, TypeScript, Redux, Node.js und Jest gearbeitet. Unser Frontend-Team bestand aus 5 Mitgliedern, die eng mit einem Backend-Team aus 4 Mitgliedern zusammenarbeiteten. Zudem hatten wir spezialisierte Teams für Design und DevOps. Unser agiler Ansatz basierte auf SCRUM.",
-      technologies: [
-        "Node.js",
-        "Nestjs",
-        "Next.js",
-        "React",
-        "Redux",
-        "JavaScript",
-        "TypeScript",
-        "AWS",
-        "Docker",
-        "Github",
-        "CI/CD",
-        "MySQL",
-        "Prisma",
-        "SCRUM",
-        "Styled Components",
-      ],
+        "Bei Dev Base habe ich an der Entwicklung verschiedener Webseiten und Anwendungen mitgewirkt. Dazu gehörte die Erstellung einer Informations- und Marketingseite für ein führendes Bauunternehmen in Europa sowie das herausragende Projekt Tandym, eine E-Commerce-Online-Zahlungsmethode in den Vereinigten Staaten. In enger Zusammenarbeit mit einem Team von 5 Frontend-Entwicklern und einem 4-köpfigen Backend-Team habe ich modernste Technologien wie NEXT.js, React, JavaScript, TypeScript, Redux, Node.js und Jest angewendet. Zusätzlich arbeiteten spezialisierte Design- und DevOps-Teams an den Projekten. Unsere agile Arbeitsweise basierte auf SCRUM.",
     },
     {
-      title: "Frontend / UI/UX Designer",
-      date: "September 2020 - Februar 2021",
-      company: "Making Sense",
-      description:
-        "Bei Making Sense, einem benutzerorientierten Unternehmen, habe ich mich auf die Verbesserung von Schnittstellen und Interaktionen spezialisiert, um die Benutzererfahrung in unseren Anwendungen zu verbessern. Ich hatte die Möglichkeit, an verschiedenen Projekten teilzunehmen, darunter eine Anwendung für das Einlösen von Punkten für ein bedeutendes Unternehmen für Tankstellen in den Vereinigten Staaten. Für dieses Projekt haben wir Technologien wie React Native mit Styled Components verwendet und Ionic für die Entwicklung eingesetzt. Zudem haben wir Einheiten- und e2e-Tests mit Jest implementiert, um die Qualität des Endprodukts zu gewährleisten. Unsere agile Methodik der Wahl war SCRUM.",
-      technologies: [
-        "Node.js",
-        "React",
-        "React Native",
-        "Redux",
-        "JavaScript",
-        "TypeScript",
-        "Styled Components",
-        "AWS",
-        "Docker",
-        "Github",
-        "CI/CD",
-        "Figma",
-        "Sketch",
-        "Jira",
-        "SCRUM",
-      ],
-    },
-    {
-      title: "Frontend-Entwickler",
-      date: "März 2019 - September 2020",
+      title: "Frontend Ingenieur",
+      date: "Sept 2019 - Januar 2021",
       company: "Wenance",
       description:
-        "Wenance, ein renommiertes Fintech-Unternehmen, war der Ort, an dem wir eine Webanwendung entwickelt haben, die eine technologische Aufrüstung erforderte. Wir haben die Anwendung von Grund auf mit modernen Technologien wie React, Redux, Node.js, Axios, Sass und Jest erstellt und umgestaltet. Das Projekt war ambitioniert, und wir hatten mehrere Entwicklungsteams, die sich auf Bereiche wie Frontend, Backend, Design, Marketing und Geschäft spezialisierten, wobei jedes Team aus 6 bis 10 Mitgliedern bestand. Unsere gewählte agile Methodik war SCRUM mit Jira.",
-      technologies: [
-        "Node.js",
-        "Nestjs",
-        "Next.js",
-        "React",
-        "Redux",
-        "JavaScript",
-        "TypeScript",
-        "AWS",
-        "Docker",
-        "Github",
-        "CI/CD",
-        "Figma",
-        "Sketch",
-        "Jira",
-        "SCRUM",
-        "CSS",
-        "Sass",
-      ],
+        "Bei Wenance, einem renommierten Fintech-Unternehmen, habe ich an der Entwicklung einer anspruchsvollen Webanwendung gearbeitet. Diese Anwendung erforderte eine umfassende technologische Neugestaltung. Ich habe die Anwendung von Grund auf mit modernen Technologien wie React, Redux, Node.js, Axios, Sass und Jest erstellt und umgestaltet. Das Projekt umfasste mehrere Entwicklungsteams, die sich auf verschiedene Bereiche wie Frontend, Backend, Design, Marketing und Geschäft spezialisierten. Unsere gewählte agile Methodik war SCRUM, unterstützt durch Jira.",
     },
     {
       title: "Frontend-Entwickler",
       date: "Februar 2016 - Februar 2019",
       company: "Eulas S.A. / Minutentag",
       description:
-        "Bei Eulas S.A. / Minutentag habe ich mit verschiedenen Technologien wie JavaScript, jQuery und etwas PHP gearbeitet. Wir haben Jira für das effiziente Ticketmanagement und Sass für das Styling verwendet. Für das Frontend haben wir HTML eingesetzt und die Interaktion der Vorlagen mit Handlebars.js verbessert. Unsere Arbeitsmethodik umfasste sowohl Kanban als auch SCRUM.",
-      technologies: [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "AJAX",
-        "jQuery",
-        "SaaS",
-        "Node.js",
-        "Express",
-        "React",
-        "Redux",
-        "OPP",
-        "Functional Programming",
-        "CMS",
-        "Webpack",
-        "Grunt",
-        "Node.js",
-        "Nest.js",
-        "Next.js",
-        "React",
-        "Redux",
-        "JavaScript",
-        "TypeScript",
-        "AWS",
-        "Docker",
-        "Github",
-        "CI/CD",
-        "Figma",
-        "Sketch",
-        "Jira",
-        "SCRUM",
-        "CSS",
-      ],
+        "Bei Eulas S.A. / Minutentag habe ich mit verschiedenen Technologien wie JavaScript, jQuery und PHP gearbeitet. Wir haben Jira für effizientes Ticketmanagement und Sass für das Styling verwendet. Das Frontend wurde mithilfe von HTML und Handlebars.js optimiert. Unsere Arbeitsmethodik umfasste sowohl Kanban als auch SCRUM.",
+    },
+  ],
+};
+
+const education = {
+  title: "Bildung",
+  items: [
+    {
+      institute: "Coder House",
+      title: "Webentwicklung, Frontend Webentwickler",
+      description:
+        "Ausbildung in Webentwicklung, Schwerpunkt Frontend-Entwicklung",
+      date: "2015 - 2016",
+    },
+    {
+      institute: "Colombian Industrial Careers School",
+      title: "Ingenieurwesen, Systemtechnik",
+      description: "Studium des Ingenieurwesens mit Schwerpunkt Systemtechnik",
+      date: "2012 - 2014",
+    },
+  ],
+};
+
+const projects = {
+  title: "Meine Projekte",
+  items: [
+    {
+      title: "Lebenslauf-Website",
+      url: "https://lebensluaf.rev.earth",
+      description:
+        "Durchsuchen Sie meinen Lebenslauf online und drucken Sie ihn bei Bedarf. Alles ist nur einen Klick entfernt!",
+    },
+    {
+      title: "Rev Earth",
+      url: "https://rev.earth",
+      description:
+        "Im Rahmen ihrer Sensibilisierungsmission erleichtert Rev Earth die Verbindung zwischen Menschen.",
+    },
+    {
+      title: "Rev Play",
+      url: "https://revtrade.rev.earth",
+      description:
+        "Automatisierte Anwendungsverbindung zu Märkten über die Deriv-API.",
+    },
+    {
+      title: "KI tic tac toe",
+      url: "https://tic-tac-toe.rev.earth",
+      description:
+        "Fordern Sie das unbesiegbare Tic-Tac-Toe-Spiel mit KI heraus! Technologien: React, Minimax-Algorithmus und Alpha Beta.",
     },
   ],
 };
@@ -176,70 +140,10 @@ const experiences = {
 export default {
   languages,
   head,
-  summary: {
-    title: "Zusammenfassung",
-    description: [
-      "Ich bin ein Webentwickler mit über 7 Jahren Erfahrung und biete digitale Lösungen für Großprojekte an",
-    ],
-  },
-  skills: {
-    title: "Fähigkeiten",
-    items: [
-      { name: "React", time: "7 Jahre" },
-      { name: "Redux", time: "7 Jahre" },
-      { name: "Typescript", time: "5 Jahre" },
-
-      { name: "GraphQL", time: "4 Jahre" },
-    ],
-  },
+  summary,
+  skills,
   experiences,
-  education: {
-    title: "Bildung",
-    items: [
-      {
-        institute: "Coder House",
-        title: "Webentwicklung, Frontend Webentwickler",
-        description:
-          "Erstellung und Design von Webseiten mit HTML5, JS, CSS, Bootstrap, jQuery, APIs, Animationen. Als Autodidakt konnte ich meine beruflichen Fähigkeiten verbessern.",
-        date: "2015 - 2016",
-      },
-      {
-        institute: "Colombian Industrial Careers School",
-        title: "Ingenieurwesen, Systemtechnik",
-        description:
-          "4 Semester Studium, um den Ingenieurabschluss zu erreichen. Der Lehrinhalt umfasste Programmieralgorithmen, Funktionen, Algebra, Physik, Grundlagen des Ingenieurwesens.",
-        date: "2012 - 2014",
-      },
-    ],
-  },
-  projects: {
-    title: "Meine Projekte",
-    items: [
-      {
-        title: "CV-Website",
-        url: "https://resume.rev.earth",
-        description:
-          "Verbessern Sie Ihre Erfahrung, indem Sie meinen Lebenslauf online durchsuchen und ihn bei Bedarf drucken können. Alles, was Sie brauchen, ist nur einen Klick entfernt!",
-      },
-      {
-        title: "Rev Earth",
-        url: "https://rev.earth",
-        description:
-          "Im Rahmen ihrer Sensibilisierungsmission erleichtert Rev Earth die Verbindung zwischen Menschen.",
-      },
-      {
-        title: "Tic-Tac-Toe KI",
-        url: "https://tic-tac-toe.rev.earth",
-        description:
-          "Du! Besiege es! \n Das unbesiegbare Tic-Tac-Toe-Spiel mit KI wird versuchen, dich zu schlagen! Technologien: React und Minimax-Algorithmus und Alpha Beta.",
-      },
-      {
-        title: "CRM-Verkäufer",
-        url: "https://crm-seller-front.vercel.app/login",
-        description:
-          "Mit diesem System können Unternehmen ihre Verkäufer hinzufügen, löschen und verwalten. Die Verkäufer können wiederum die Produkte des Unternehmens und die Kunden hinzufügen, löschen und verwalten.",
-      },
-    ],
-  },
+  education,
+  projects,
   social,
 };
