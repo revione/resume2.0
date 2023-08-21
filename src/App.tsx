@@ -8,7 +8,7 @@ import { detectAndChangeLanguage } from "i18n/detectLanguage";
 
 const Title = ({ children }: { children: string }) => (
   <h3 className="font-semibold text-2xl mb-2 print:text-xl relative pl-2 -left-2">
-    <span className="absolute h-full border-l-2 border-teal-300 left-0 top-0"></span>
+    <span className="absolute h-full border-l-2 border-emerald-300 left-0 top-0"></span>
     {children}
   </h3>
 );
@@ -18,12 +18,12 @@ const Header = () => {
 
   return (
     <div
-      className={`print-bg bg-teal-300 dark:bg-emerald-900 p-10 mb-3 max-w-screen-lg print:m-0 print:mb-0 print:p-5`}
+      className={` p-10 mb-3 max-w-screen-lg print:m-0 print:mb-0 print:p-5 pb-0`}
     >
       <h1 className="font-bold text-5xl print:text-3xl mb-1">
         {t("head.name")}
       </h1>
-      <h2 className="font-bold text-3xl print:text-2xl mb-1">
+      <h2 className="font-bold text-3xl print:text-3xl mb-1">
         {t("head.carrier")}
       </h2>
       <div className="font-semibold text-xl print:text-xl">
@@ -251,10 +251,12 @@ const App = () => {
           ease: "easeIn",
         },
       }}
-      className="w-full flex justify-center 
-      md:p-10 
-      print:p-0 
-      print:md:p-0"
+      className="
+        w-full flex justify-center 
+        md:p-10 
+        print:p-0 
+        print:md:p-0
+      "
     >
       <div className="shadow-2xl shadow-cyan-500/50 print:shadow-none">
         <Header />

@@ -113,7 +113,7 @@ const projects = {
   items: [
     {
       title: "Sitio Web de Currículum",
-      url: "https://lebensluaf.rev.earth",
+      url: "https://cv.rev.earth",
       description:
         "Navega por mi currículum en línea e imprímelo si es necesario. ¡Todo está a solo un clic de distancia!",
     },

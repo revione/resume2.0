@@ -112,7 +112,7 @@ const projects = {
   items: [
     {
       title: "Lebenslauf-Website",
-      url: "https://lebensluaf.rev.earth",
+      url: "https://lebenslauf.rev.earth",
       description:
         "Durchsuchen Sie meinen Lebenslauf online und drucken Sie ihn bei Bedarf. Alles ist nur einen Klick entfernt!",
     },
