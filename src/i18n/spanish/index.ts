@@ -125,7 +125,7 @@ const projects = {
     },
     {
       title: "Rev Play",
-      url: "https://revtrade.rev.earth",
+      url: "https://revplay.rev.earth",
       description:
         "Conexión automatizada de aplicaciones a mercados a través de la API de Deriv.",
     },
