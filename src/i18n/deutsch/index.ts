@@ -20,10 +20,10 @@ const summary = {
 const skills = {
   title: "Fähigkeiten",
   items: [
-    { name: "JavaScript", time: "7 Jahre" },
-    { name: "Typescript", time: "7 Jahre" },
     { name: "React", time: "7 Jahre" },
     { name: "Redux", time: "7 Jahre" },
+    { name: "JavaScript", time: "7 Jahre" },
+    { name: "Typescript", time: "7 Jahre" },
   ],
 };
 
@@ -61,10 +61,10 @@ const experiences = {
       title: "Senior Frontend",
       date: "Juli 2022 - Juli 2023",
       company: "Opentalk",
-      description: `Wir haben den Markt aufgebrochen, indem wir ein innovatives Produkt im Bereich der webbasierten Videokonferenzen angeboten haben. Dabei haben wir auf edge Technologien wie React, TypeScript, Node.js und SCRAM gesetzt. Ich habe zahlreiche strategische Meetings geleitet, um Teamfragen zu klären und eine effiziente Projektentwicklung zu fördern.`,
+      description: `Herausforderung der Branche durch die Einführung eines innovativen Produkts im Bereich webbasierter Videokonferenzen, unter Verwendung modernster Technologien wie React, TypeScript, Node.js und SCRAM. Meine Bemühungen konzentrierten sich auf die Entwicklung einer hochwertigen Benutzeroberfläche. Darüber hinaus habe ich an mehreren strategischen Besprechungen teilgenommen, um Teambedenken anzusprechen und eine effiziente Projektenwicklung zu fördern.`,
     },
     {
-      title: "Senior Frontend / Teamleiter",
+      title: "Senior Frontend",
       date: "Februar 2021 - Juni 2023",
       company: "Dev Base",
       description: `Ich habe an einem bedeutenden Projekt im Bankensektor teilgenommen. Wir haben eine Online-Zahlungsanwendung für den E-Commerce entwickelt, unter Verwendung von Technologien wie React, TypeScript und Qualitätsprüfungen. Dieses Projekt wurde von Grund auf aufgebaut und stellte eine spannende Herausforderung dar. Ich hatte die Leitung bei der Architektur des Projekts und habe sichergestellt, dass es den vom Unternehmen vorgeschlagenen Designanforderungen entspricht.`,
@@ -73,16 +73,14 @@ const experiences = {
       title: "Frontend Ingenieur",
       date: "Sept 2019 - Januar 2021",
       company: "Wenance",
-      description: `Wenance gestaltet die Finanzbranche mit dem Ansatz 'Fintech People' um, indem es React, Typescript, Node.js, Java und Salesforce für mühelose Erfahrungen kombiniert. ReactJs gestaltet intuitive, benutzerzentrierte Schnittstellen. Ich habe React Typescript, Sketch und Figma für schöne, funktionale Designs verwendet.
-Die Magie von Wenance liegt im kollaborativen Design, bei dem auffällige Schnittstellen mit erweiterten UI-Funktionen entwickelt werden. Über Ideen hinaus habe ich Code geschrieben, nahtlose Schnittstellen erstellt und Herausforderungen behoben. Die Umwandlung von Konzepten in benutzerfreundliche Realitäten definiert die Reise.
-Technologie ist nicht nur Code – sie ist interaktiv. Wenance stellt sie ins Zentrum des Fintechs und schafft ansprechende, ermächtigende Finanzerlebnisse.`,
+      description: `Für dieses ehrgeizige Projekt, das darauf abzielte, einen hohen Mehrwert im Bereich Fintech zu bieten, haben wir eine Transformation eines Kreditsystemzugangs durchgeführt, wobei die Implementierung der besten verfügbaren Technologien wie React, TypeScript, Node.js und Cypress Priorität hatte. Mein Beitrag war signifikant, da ich in Entscheidungsfindung und Entwicklung der Systemarchitektur involviert war. Darüber hinaus habe ich Gespräche mit anderen Abteilungen des Unternehmens geführt, um eine größere Harmonie im Entwicklungsprozess des Unternehmens sicherzustellen.`,
     },
     {
       title: "Frontend-Entwickler",
       date: "Februar 2016 - Februar 2019",
-      company: "Eulas S.A. / Minutentag",
+      company: "Eulas S.A.",
       description:
-        "Bei Eulas S.A. / Minutentag habe ich mit verschiedenen Technologien wie JavaScript, jQuery und PHP gearbeitet. Wir haben Jira für effizientes Ticketmanagement und Sass für das Styling verwendet. Das Frontend wurde mithilfe von HTML und Handlebars.js optimiert. Unsere Arbeitsmethodik umfasste sowohl Kanban als auch SCRUM.",
+        "Bei Eulas S.A. habe ich mit verschiedenen Technologien wie JavaScript, jQuery und PHP gearbeitet. Wir haben Jira für effizientes Ticketmanagement und Sass für das Styling verwendet. Das Frontend wurde mithilfe von HTML und Handlebars.js optimiert. Unsere Arbeitsmethodik umfasste sowohl Kanban als auch SCRUM.",
     },
   ],
 };
