@@ -77,22 +77,18 @@ const Experiences = () => {
           }[]
         ).map((experience, i) => (
           <li key={i} className="mb-6">
-            <div className="font-semibold flex gap-4">
-              <div className="text-xl print:text-lg">
-                {t(experience.company)}
+            <div className="flex gap-2">
+              <div className="text-xl font-semibold print:text-lg">
+                {t(experience.company)} -
               </div>
-              <div className="text-base leading-7 print:text-xs print:leading-8">
-                {t(experience.date)}
+              <div className="text-lg font-bold print:text-base leading-[1.9rem] print:leading-[1.75rem]">
+                {t(experience.title)}
               </div>
             </div>
-            <div className="font-semibold text-xl print:text-lg mb-2">
-              {t(experience.title)}
+            <div className=" text-base leading-7 print:text-xs print:leading-8 mb-2 -mt-1">
+              {t(experience.date)}
             </div>
             <p className="mb-2">{t(experience.description)}</p>
-            {/* <p>
-              <span className="font-bold">{t("Stack technologies")}: </span>
-              {experience.technologies?.join(", ")}
-            </p> */}
           </li>
         ))}
       </ul>
@@ -121,18 +117,15 @@ const Education = () => {
           }[]
         ).map((education, i) => (
           <li key={i} className="mb-6">
-            <div className="font-semibold text-xl flex gap-4">
-              <div className="text-xl print:text-lg">
-                {t(education.institute)}
-              </div>
-              <div className="text-base leading-7 print:text-xs print:leading-8">
-                {t(education.date)}
-              </div>
-            </div>
-            <div className="font-bold text-lg flex gap-4 print:text-base">
+            <div className="text-xl font-semibold flex gap-4 print:text-base">
               {t(education.title)}
             </div>
-            {/* <p>{t(education.description)}</p> */}
+            <div className="text-lg print:text-lg">
+              {t(education.institute)}
+            </div>
+            <div className="text-base leading-7 print:text-xs print:leading-8">
+              {t(education.date)}
+            </div>
           </li>
         ))}
       </ul>

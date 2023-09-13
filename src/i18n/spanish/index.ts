@@ -20,10 +20,10 @@ const summary = {
 const skills = {
   title: "Habilidades",
   items: [
-    { name: "JavaScript", time: "7 años" },
-    { name: "TypeScript", time: "7 años" },
     { name: "React", time: "7 años" },
     { name: "Redux", time: "7 años" },
+    { name: "JavaScript", time: "7 años" },
+    { name: "TypeScript", time: "7 años" },
   ],
 };
 
@@ -62,10 +62,10 @@ const experiences = {
       date: "Julio 2022 - Julio 2023",
       company: "Opentalk",
       description:
-        "Rompimos los esquemas del mercado ofreciendo un producto innovador en el ambito de las videoconferencias web, aprovechando las tecnologías líderes del mercado como React, Typescript, Node.js y SCRAM. Encabecé numerosas reuniones estratégicas para aclarar las dudas del equipo y fomentar un desarrollo eficiente del proyecto.",
+        "Rompimos los esquemas del mercado ofreciendo un producto innovador en el ambito de las videoconferencias web, aprovechando las tecnologías líderes del mercado como React, Typescript, Node.js y SCRAM. Me esfuerzos se vieron implicados en el desarrollo de alta calidad de la interfaz de usuario. Ademas encabecé numerosas reuniones estratégicas para aclarar las dudas del equipo y fomentar un desarrollo eficiente del proyecto.",
     },
     {
-      title: "Senior Frontend / Líder de Equipo",
+      title: "Senior Frontend",
       date: "Febrero 2021 - Junio 2023",
       company: "Dev Base",
       description:
@@ -76,14 +76,14 @@ const experiences = {
       date: "Septiembre 2019 - Enero 2021",
       company: "Wenance",
       description:
-        "En Wenance, una reconocida empresa Fintech, trabajé en el desarrollo de una sofisticada aplicación web. Esta aplicación requería una revisión tecnológica integral. Construí y renové la aplicación desde cero utilizando tecnologías modernas como React, Redux, Node.js, Axios, Sass y Jest. El proyecto involucró a múltiples equipos de desarrollo especializados en áreas como frontend, backend, diseño, marketing y negocios. Nuestra metodología ágil elegida fue SCRUM, respaldada por Jira.",
+        "Para este ambicioso proyecto que tenía como objetivo brindar un alto valor en el sector Fintech, llevamos a cabo una transformación en un sistema de acceso a créditos, priorizando la implementación de las mejores tecnologías disponibles, como React, TypeScript, Node.js y Cypress. Mi contribución fue significativa, ya que estuve involucrado en la toma de decisiones y en el desarrollo de la arquitectura del sistema. Además, participé en conversaciones con otras áreas de la empresa para garantizar una mayor armonía en el proceso de desarrollo de la compañía.",
     },
     {
       title: "Desarrollador Frontend",
       date: "Febrero 2016 - Febrero 2019",
-      company: "Eulas S.A. / Minutentag",
+      company: "Eulas S.A.",
       description:
-        "En Eulas S.A. / Minutentag, trabajé con diversas tecnologías, incluyendo JavaScript, jQuery y PHP. Utilizamos Jira para una gestión eficiente de tickets y Sass para el estilo. El frontend se optimizó utilizando HTML y Handlebars.js. Nuestra metodología de trabajo abarcó tanto Kanban como SCRUM.",
+        "En Eulas S.A., trabajé con diversas tecnologías, incluyendo JavaScript, jQuery y PHP. Utilizamos Jira para una gestión eficiente de tickets y Sass para el estilo. El frontend se optimizó utilizando HTML y Handlebars.js. Nuestra metodología de trabajo abarcó tanto Kanban como SCRUM.",
     },
   ],
 };
