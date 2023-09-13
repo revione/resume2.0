@@ -7,13 +7,13 @@ const languages = {
 const head = {
   name: "Oliver Ramirez Garcia",
   carrier: "Senior Frontend",
-  email: "oliver.rg@rev.earth",
+  email: "oliver.rg@web.de",
 };
 
 const summary = {
   title: "Zusammenfassung",
   description: [
-    "Ich bin ein Softwareentwickler, der sich für Geschäfts- und Produktlösungen engagiert. Sie können von mir Verantwortung, Führungsentscheidungen sowie effektive Kommunikation und Lösungsmanagement erwarten.",
+    "Ich bin engagiert, Unternehmens- und Produktlösungen bereitzustellen. Sie können von mir Verantwortung, Führungsentscheidungen sowie effektive Kommunikation und Lösungsmanagement erwarten.",
   ],
 };
 
@@ -61,22 +61,21 @@ const experiences = {
       title: "Senior Frontend",
       date: "Juli 2022 - Juli 2023",
       company: "Opentalk",
-      description:
-        "Bei Opentalk, einem deutschen Unternehmen, das sich auf Videokonferenzen spezialisiert hat, habe ich eng mit modernen Technologien wie React, Redux, JavaScript, TypeScript, Streaming, WebSockets und Jest gearbeitet. Ich war Teil mehrerer agiler Entwicklungsteams und habe SCRUM als unsere Methode für die agile Entwicklung angewendet.",
+      description: `Wir haben den Markt aufgebrochen, indem wir ein innovatives Produkt im Bereich der webbasierten Videokonferenzen angeboten haben. Dabei haben wir auf edge Technologien wie React, TypeScript, Node.js und SCRAM gesetzt. Ich habe zahlreiche strategische Meetings geleitet, um Teamfragen zu klären und eine effiziente Projektentwicklung zu fördern.`,
     },
     {
       title: "Senior Frontend / Teamleiter",
       date: "Februar 2021 - Juni 2023",
       company: "Dev Base",
-      description:
-        "Bei Dev Base habe ich an der Entwicklung verschiedener Webseiten und Anwendungen mitgewirkt. Dazu gehörte die Erstellung einer Informations- und Marketingseite für ein führendes Bauunternehmen in Europa sowie das herausragende Projekt Tandym, eine E-Commerce-Online-Zahlungsmethode in den Vereinigten Staaten. In enger Zusammenarbeit mit einem Team von 5 Frontend-Entwicklern und einem 4-köpfigen Backend-Team habe ich modernste Technologien wie NEXT.js, React, JavaScript, TypeScript, Redux, Node.js und Jest angewendet. Zusätzlich arbeiteten spezialisierte Design- und DevOps-Teams an den Projekten. Unsere agile Arbeitsweise basierte auf SCRUM.",
+      description: `Ich habe an einem bedeutenden Projekt im Bankensektor teilgenommen. Wir haben eine Online-Zahlungsanwendung für den E-Commerce entwickelt, unter Verwendung von Technologien wie React, TypeScript und Qualitätsprüfungen. Dieses Projekt wurde von Grund auf aufgebaut und stellte eine spannende Herausforderung dar. Ich hatte die Leitung bei der Architektur des Projekts und habe sichergestellt, dass es den vom Unternehmen vorgeschlagenen Designanforderungen entspricht.`,
     },
     {
       title: "Frontend Ingenieur",
       date: "Sept 2019 - Januar 2021",
       company: "Wenance",
-      description:
-        "Bei Wenance, einem renommierten Fintech-Unternehmen, habe ich an der Entwicklung einer anspruchsvollen Webanwendung gearbeitet. Diese Anwendung erforderte eine umfassende technologische Neugestaltung. Ich habe die Anwendung von Grund auf mit modernen Technologien wie React, Redux, Node.js, Axios, Sass und Jest erstellt und umgestaltet. Das Projekt umfasste mehrere Entwicklungsteams, die sich auf verschiedene Bereiche wie Frontend, Backend, Design, Marketing und Geschäft spezialisierten. Unsere gewählte agile Methodik war SCRUM, unterstützt durch Jira.",
+      description: `Wenance gestaltet die Finanzbranche mit dem Ansatz 'Fintech People' um, indem es React, Typescript, Node.js, Java und Salesforce für mühelose Erfahrungen kombiniert. ReactJs gestaltet intuitive, benutzerzentrierte Schnittstellen. Ich habe React Typescript, Sketch und Figma für schöne, funktionale Designs verwendet.
+Die Magie von Wenance liegt im kollaborativen Design, bei dem auffällige Schnittstellen mit erweiterten UI-Funktionen entwickelt werden. Über Ideen hinaus habe ich Code geschrieben, nahtlose Schnittstellen erstellt und Herausforderungen behoben. Die Umwandlung von Konzepten in benutzerfreundliche Realitäten definiert die Reise.
+Technologie ist nicht nur Code – sie ist interaktiv. Wenance stellt sie ins Zentrum des Fintechs und schafft ansprechende, ermächtigende Finanzerlebnisse.`,
     },
     {
       title: "Frontend-Entwickler",

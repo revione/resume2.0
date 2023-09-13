@@ -7,13 +7,13 @@ const languages = {
 const head = {
   name: "Oliver Ramirez Garcia",
   carrier: "Senior Frontend",
-  email: "oliver.rg@rev.earth",
+  email: "oliver.rg@web.de",
 };
 
 const summary = {
   title: "Resumen",
   description: [
-    "Soy un desarrollador de software comprometido con soluciones empresariales y de productos. Puede esperar de mí responsabilidad, toma de decisiones de liderazgo, además de comunicación efectiva y gestión de resoluciones.",
+    "Estoy comprometido en brindar  soluciones empresariales y de productos. Puede esperar de mí responsabilidad, toma de decisiones de liderazgo, además de comunicación efectiva y gestión de resoluciones.",
   ],
 };
 
@@ -62,14 +62,14 @@ const experiences = {
       date: "Julio 2022 - Julio 2023",
       company: "Opentalk",
       description:
-        "En Opentalk, una empresa alemana especializada en videoconferencias, trabajé estrechamente con tecnologías modernas como React, Redux, JavaScript, TypeScript, Streaming, WebSockets y Jest. Fui parte de varios equipos de desarrollo ágil y utilicé SCRUM como nuestra metodología.",
+        "Rompimos los esquemas del mercado ofreciendo un producto innovador en el ambito de las videoconferencias web, aprovechando las tecnologías líderes del mercado como React, Typescript, Node.js y SCRAM. Encabecé numerosas reuniones estratégicas para aclarar las dudas del equipo y fomentar un desarrollo eficiente del proyecto.",
     },
     {
       title: "Senior Frontend / Líder de Equipo",
       date: "Febrero 2021 - Junio 2023",
       company: "Dev Base",
       description:
-        "En Dev Base, contribuí al desarrollo de varios sitios web y aplicaciones. Esto incluyó la creación de un sitio web informativo y de marketing para una destacada empresa de construcción en Europa, así como el notable proyecto Tandym, un método de pago en línea para comercio electrónico en los Estados Unidos. Trabajando estrechamente con un equipo de 5 desarrolladores frontend y un equipo de backend de 4 miembros, utilicé tecnologías de vanguardia como NEXT.js, React, JavaScript, TypeScript, Redux, Node.js y Jest. Además, equipos especializados de diseño y DevOps colaboraron en los proyectos. Nuestro enfoque ágil se basó en SCRUM.",
+        "Participé en un importante proyecto en el ámbito bancario. Desarrollamos una aplicación de pagos en línea para comercios electrónicos, utilizando tecnologías como React, TypeScript y pruebas de calidad. Este proyecto se construyó desde cero y representó un emocionante desafío. Tuve el liderazgo en la arquitectura del proyecto y me aseguré de que cumpliera con los requisitos de diseño propuestos por la empresa.",
     },
     {
       title: "Ingeniero Frontend",

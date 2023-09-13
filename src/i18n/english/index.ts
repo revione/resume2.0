@@ -7,13 +7,13 @@ const languages = {
 const head = {
   name: "Oliver Ramirez Garcia",
   carrier: "Senior Frontend",
-  email: "oliver.rg@rev.earth",
+  email: "oliver.rg@web.de",
 };
 
 const summary = {
   title: "Summary",
   description: [
-    "I am a software developer committed to business and product solutions. You can expect responsibility, leadership decision-making, as well as effective communication and resolution management from me.",
+    "I am committed to providing business and product solutions. You can expect from me responsibility, leadership decision-making, as well as effective communication and resolution management.",
   ],
 };
 
@@ -61,22 +61,21 @@ const experiences = {
       title: "Senior Frontend",
       date: "July 2022 - July 2023",
       company: "Opentalk",
-      description:
-        "At Opentalk, a German company specializing in video conferencing, I worked closely with modern technologies such as React, Redux, JavaScript, TypeScript, Streaming, WebSockets, and Jest. I was part of multiple agile development teams and used SCRUM as our methodology.",
+      description: `We challenged industry norms by introducing an innovative product in the field of web-based video conferencing, harnessing leading-edge technologies such as React, TypeScript, Node.js, and SCRAM. I spearheaded numerous strategic meetings to clarify team concerns and promote efficient project development.`,
     },
     {
       title: "Senior Frontend / Team Leader",
       date: "February 2021 - June 2023",
       company: "Dev Base",
-      description:
-        "At Dev Base, I contributed to the development of various websites and applications. This included creating an informational and marketing website for a leading construction company in Europe, as well as the notable Tandym project, an E-commerce online payment method in the United States. Working closely with a team of 5 frontend developers and a 4-member backend team, I utilized cutting-edge technologies such as NEXT.js, React, JavaScript, TypeScript, Redux, Node.js, and Jest. Additionally, specialized design and DevOps teams collaborated on the projects. Our agile approach was based on SCRUM.",
+      description: `I participated in a significant project in the banking sector. We developed an online payment application for e-commerce, using technologies such as React, TypeScript, and quality testing. This project was built from scratch and presented an exciting challenge. I took the lead in the project's architecture and ensured it met the design requirements proposed by the company.`,
     },
     {
       title: "Frontend Engineer",
       date: "September 2019 - January 2021",
       company: "Wenance",
-      description:
-        "At Wenance, a renowned Fintech company, I worked on developing a sophisticated web application. This application required a comprehensive technological overhaul. I built and revamped the application from scratch using modern technologies like React, Redux, Node.js, Axios, Sass, and Jest. The project involved multiple development teams specializing in areas such as frontend, backend, design, marketing, and business. Our chosen agile methodology was SCRUM, supported by Jira.",
+      description: `Wenance reshapes finance with 'Fintech People' approach, merging React, Typescript, Node.js, Java, Salesforce for hassle-free experiences. ReactJs crafts intuitive, user-centric interfaces. I used React Typescript, Sketch, Figma for beautiful, functional designs.
+Wenance's magic lies in collaborative design, crafting eye-catching interfaces with enhanced UI features. Beyond ideas, I wrote code, built seamless interfaces, and debugged challenges. Transforming concepts into user-friendly realities defines the journey.
+Tech isn't just code—it's interactive. Wenance puts it at the center of fintech, creating engaging, empowering financial experiences.`,
     },
     {
       title: "Frontend Developer",
