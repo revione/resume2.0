@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Title = ({ children }: { children: string }) => (
   <h3 className="font-semibold text-2xl mb-2 print:text-xl relative pl-2 -left-2">
-    <span className="absolute h-full border-l-2 border-emerald-300 left-0 top-0"></span>
+    <span className="absolute h-full border-l-2 border-sky-900 left-0 top-0"></span>
     {children}
   </h3>
 );
