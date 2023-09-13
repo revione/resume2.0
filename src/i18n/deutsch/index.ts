@@ -61,13 +61,13 @@ const experiences = {
       title: "Senior Frontend",
       date: "Juli 2022 - Juli 2023",
       company: "Opentalk",
-      description: `Herausforderung der Branche durch die Einführung eines innovativen Produkts im Bereich webbasierter Videokonferenzen, unter Verwendung modernster Technologien wie React, TypeScript, Node.js und SCRAM. Meine Bemühungen konzentrierten sich auf die Entwicklung einer hochwertigen Benutzeroberfläche. Darüber hinaus habe ich an mehreren strategischen Besprechungen teilgenommen, um Teambedenken anzusprechen und eine effiziente Projektenwicklung zu fördern.`,
+      description: `Das Unternehmen fordert die Branche heraus, indem es durch die Einführung eines innovativen Produkts im Bereich webbasierter Videokonferenzen modernste Technologien wie React, TypeScript, Node.js und SCRAM verwendet. Meine Arbeit dort umfasste die Entwicklung einer hochwertigen Benutzeroberfläche. Darüber hinaus habe ich mehrere strategische Besprechungen initiiert, um Bedenken im Team anzusprechen und eine effiziente Projektenwicklung zu fördern.`,
     },
     {
       title: "Senior Frontend",
       date: "Februar 2021 - Juni 2023",
       company: "Dev Base",
-      description: `Ich habe an einem bedeutenden Projekt im Bankensektor teilgenommen. Wir haben eine Online-Zahlungsanwendung für den E-Commerce entwickelt, unter Verwendung von Technologien wie React, TypeScript und Qualitätsprüfungen. Dieses Projekt wurde von Grund auf aufgebaut und stellte eine spannende Herausforderung dar. Ich hatte die Leitung bei der Architektur des Projekts und habe sichergestellt, dass es den vom Unternehmen vorgeschlagenen Designanforderungen entspricht.`,
+      description: `Bei DevBase habe ich an einem bedeutenden Projekt im Bankensektor teilgenommen. Wir haben eine Online-Zahlungsanwendung für den E-Commerce entwickelt, wobei wir Technologien wie React, TypeScript verwendet und Qualitätsprüfungen durchgeführt haben. Dieses Projekt wurde von Grund auf aufgebaut und stellte eine spannende Herausforderung dar. Ich hatte die Leitung bei der Architektur des Projekts und habe sichergestellt, dass es den vom Unternehmen vorgeschlagenen Designanforderungen entspricht.`,
     },
     {
       title: "Frontend Ingenieur",
@@ -111,13 +111,13 @@ const projects = {
       title: "Lebenslauf-Website",
       url: "https://lebenslauf.rev.earth",
       description:
-        "Durchsuchen Sie meinen Lebenslauf online und drucken Sie ihn bei Bedarf. Alles ist nur einen Klick entfernt!",
+        "Schauen Sie sich meinen Lebenslauf online an und und drucken Sie ihn bei Bedarf aus. Alles ist nur einen Klick entfernt!",
     },
     {
       title: "Rev Earth",
       url: "https://rev.earth",
       description:
-        "Im Rahmen ihrer Sensibilisierungsmission erleichtert Rev Earth die Verbindung zwischen Menschen.",
+        "Wir haben das Ziel, einen gegenseitigen Austausch zwischen Menschen zu ermöglichen. Dabei setzen wir uns dafür ein, dass Kenntnisse kostenfrei ausgetauscht werden und die Kommunikation erleichtert wird.",
     },
     {
       title: "Rev Play",
