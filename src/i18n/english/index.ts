@@ -6,7 +6,7 @@ const languages = {
 
 const head = {
   name: "Oliver Ramirez Garcia",
-  carrier: "Senior Frontend",
+  carrier: "Senior Software Engineer",
   email: "oliver.rg@web.de",
 };
 
@@ -20,6 +20,7 @@ const summary = {
 const skills = {
   title: "Skills",
   items: [
+    { name: "Node", time: "7 years" },
     { name: "React", time: "7 years" },
     { name: "Redux", time: "7 years" },
     { name: "JavaScript", time: "7 years" },
@@ -58,25 +59,25 @@ const experiences = {
   title: "Work Experience",
   items: [
     {
-      title: "Senior Frontend",
+      title: "Senior Software Engineer",
       date: "July 2022 - July 2023",
       company: "Opentalk",
       description: `We challenged the industry by introducing an innovative product in the field of web-based video conferencing, harnessing leading-edge technologies such as React, TypeScript, Node.js, and SCRAM. My efforts have been involved in high-quality User Interface development. Additionally, I have participated in several strategic meetings to address team concerns and promote efficient project development.`,
     },
     {
-      title: "Senior Frontend",
+      title: "Leader Software Engineer",
       date: "February 2021 - June 2023",
       company: "Dev Base",
       description: `I participated in a significant project in the banking sector. We developed an online payment application for e-commerce, using technologies such as React, TypeScript, and quality testing. This project was built from scratch and presented an exciting challenge. I took the lead in the project's architecture and ensured it met the design requirements proposed by the company.`,
     },
     {
-      title: "Frontend Engineer",
+      title: "Software Engineer",
       date: "September 2019 - January 2021",
       company: "Wenance",
       description: `For this ambitious project, aimed at delivering high value in the Fintech sector, we underwent a transformation of a credit access system, prioritising the implementation of the best available technologies such as React, TypeScript, Node.js, and Cypress. My contribution was substantial, as I was involved in decision-making and the development of the system's architecture. Furthermore, I engaged in discussions with other areas of the company to ensure greater harmony in the company's development process.`,
     },
     {
-      title: "Frontend Developer",
+      title: "Software Engineer",
       date: "February 2016 - February 2019",
       company: "Eulas S.A.",
       description:

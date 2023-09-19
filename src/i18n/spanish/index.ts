@@ -6,7 +6,7 @@ const languages = {
 
 const head = {
   name: "Oliver Ramirez Garcia",
-  carrier: "Senior Frontend",
+  carrier: "Senior Software Engineer",
   email: "oliver.rg@web.de",
 };
 
@@ -20,6 +20,7 @@ const summary = {
 const skills = {
   title: "Habilidades",
   items: [
+    { name: "Node", time: "7 años" },
     { name: "React", time: "7 años" },
     { name: "Redux", time: "7 años" },
     { name: "JavaScript", time: "7 años" },
@@ -58,28 +59,28 @@ const experiences = {
   title: "Experiencia Laboral",
   items: [
     {
-      title: "Senior Frontend",
+      title: "Senior Software Engineer",
       date: "Julio 2022 - Julio 2023",
       company: "Opentalk",
       description:
         "Rompimos los esquemas del mercado ofreciendo un producto innovador en el ambito de las videoconferencias web, aprovechando las tecnologías líderes del mercado como React, Typescript, Node.js y SCRAM. Me esfuerzos se vieron implicados en el desarrollo de alta calidad de la interfaz de usuario. Ademas encabecé numerosas reuniones estratégicas para aclarar las dudas del equipo y fomentar un desarrollo eficiente del proyecto.",
     },
     {
-      title: "Senior Frontend",
+      title: "Leader Software Engineer",
       date: "Febrero 2021 - Junio 2023",
       company: "Dev Base",
       description:
         "Participé en un importante proyecto en el ámbito bancario. Desarrollamos una aplicación de pagos en línea para comercios electrónicos, utilizando tecnologías como React, TypeScript y pruebas de calidad. Este proyecto se construyó desde cero y representó un emocionante desafío. Tuve el liderazgo en la arquitectura del proyecto y me aseguré de que cumpliera con los requisitos de diseño propuestos por la empresa.",
     },
     {
-      title: "Ingeniero Frontend",
+      title: "Software Engineer",
       date: "Septiembre 2019 - Enero 2021",
       company: "Wenance",
       description:
         "Para este ambicioso proyecto que tenía como objetivo brindar un alto valor en el sector Fintech, llevamos a cabo una transformación en un sistema de acceso a créditos, priorizando la implementación de las mejores tecnologías disponibles, como React, TypeScript, Node.js y Cypress. Mi contribución fue significativa, ya que estuve involucrado en la toma de decisiones y en el desarrollo de la arquitectura del sistema. Además, participé en conversaciones con otras áreas de la empresa para garantizar una mayor armonía en el proceso de desarrollo de la compañía.",
     },
     {
-      title: "Desarrollador Frontend",
+      title: "Software Engineer",
       date: "Febrero 2016 - Febrero 2019",
       company: "Eulas S.A.",
       description:
