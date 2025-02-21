@@ -188,7 +188,7 @@ export default {
   summary: {
     title: "Summary",
     description: [
-      "I am a web developer with over 7 years of experience, providing digital solutions for large-scale projects.",
+      "I am a software developer committed to business and product solutions. You can expect responsibility, leadership decision-making, as well as effective communication and resolution management from me.",
     ],
   },
   skills: {

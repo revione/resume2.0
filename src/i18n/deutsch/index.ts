@@ -45,7 +45,7 @@ const experiences = {
       date: "Oktober 2022 - März 2023",
       company: "Opentalk",
       description:
-        "Bei Opentalk, einem deutschen Unternehmen, das sich auf Videokonferenzen spezialisiert hat, habe ich eng mit modernen Technologien wie React, Redux, JavaScript, TypeScript, Streaming, WebSockets und Jest gearbeitet. Ich habe mit mehreren Entwicklungsteams zusammengearbeitet und dabei SCRUM als unsere agile Methodik genutzt.",
+        "Ich bin ein Softwareentwickler, der sich für Geschäfts- und Produktlösungen engagiert. Sie können von mir Verantwortung, Führungsentscheidungen sowie effektive Kommunikation und Lösungsmanagement erwarten.",
       technologies: [
         "Node.js",
         "React",

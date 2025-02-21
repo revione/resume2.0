@@ -186,7 +186,7 @@ export default {
   summary: {
     title: "Resumen",
     description: [
-      "Soy desarrollador web con más de 7 años de experiencia, brindando soluciones digitales para proyectos de gran envergadura.",
+      "Soy un desarrollador de software comprometido con soluciones empresariales y de productos. Puede esperar de mí responsabilidad, toma de decisiones de liderazgo, además de comunicación efectiva y gestión de resoluciones.",
     ],
   },
   skills: {
