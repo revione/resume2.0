@@ -3,6 +3,8 @@ import Languages from "common/Languages";
 import { useTranslation } from "react-i18next";
 
 import { motion } from "framer-motion";
+import { useEffect } from "react";
+import { detectAndChangeLanguage } from "i18n/detectLanguage";
 
 const Title = ({ children }: { children: string }) => (
   <h3 className="font-semibold text-2xl mb-2 print:text-xl relative pl-2 -left-2">
@@ -229,6 +231,10 @@ const Social = () => {
 };
 
 const App = () => {
+  useEffect(() => {
+    detectAndChangeLanguage();
+  }, []);
+
   return (
     <motion.div
       initial={{
