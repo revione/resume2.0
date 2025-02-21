@@ -73,3 +73,31 @@ export const changeLanguage = (language: LanguagesEsperados) => {
 
 // ejemplo de uso de la función changeLanguage
 // changeLanguage("es")
+
+function detectAndChangeLanguage() {
+  const url = new URL(window.location.href); // Obtiene la URL actual
+  const hostname = url.hostname; // Extrae el dominio
+
+  // Expresión regular para detectar "resume.was.was", "cv.was.was" o "lebenslauf.was.was"
+  const match = hostname.match(/^(resume|cv|lebenslauf)\.was\.was$/);
+
+  if (match) {
+    const language = match[1]; // Obtiene "resume", "cv" o "lebenslauf"
+
+    // Mapea cada opción a un idioma
+    const languageMap = {
+      resume: "en", // Inglés
+      cv: "es", // Español
+      lebenslauf: "de", // Alemán
+    };
+
+    const langCode = languageMap[language] || "en"; // Valor por defecto inglés
+    console.log(`Detectado: ${language}, cambiando idioma a: ${langCode}`);
+
+    // Ejecuta la función para cambiar el idioma
+    changeLanguage(langCode);
+  }
+}
+
+// Llamar a la función al cargar la página
+detectAndChangeLanguage();
